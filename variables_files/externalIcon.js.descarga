@@ -1,0 +1,59 @@
+/* This javascript flags external URLs with an icon to warn the end user. It also adds an 
+icon to PDF files, and email links. */
+
+$(window).on('load', function(){
+	
+	// add noExternalIcon to images or icons that are external links
+	$('a').each(function(){
+		var linkImg = $(this).find('img').prop('tagName');
+		if(linkImg=='IMG'){
+			$(this).addClass('noExternalIcon');
+		}
+		var linkIcon = $(this).find('i').prop('tagName');
+		if(linkIcon=='I'){
+			$(this).addClass('noExternalIcon');
+		}
+	});
+	
+	$('a[href^="http:"],a[href^="https:"],a[href^="//"]').filter(function(){
+		var icon = (!$(this).hasClass("noExternalIcon")); //for twitter/facebook icons and other elements where we need to suppress the arrow
+		return this.hostname && 
+		(this.hostname != location.hostname) && 
+		//(!this.hostname.match(/(?:[\s.])([a-z0-9][a-z0-9-]+[a-z0-9]\.icpsr\.umich\.edu)/gi)) && 
+		// simplified regex to capture multiple subdomains
+		(!this.hostname.match(/(([a-z0-9]+[.])*\.icpsr\.umich\.edu)/gi)) &&
+		(this.hostname != 'www.icpsr.umich.edu') && 
+		(this.hostname != 'staging.icpsr.umich.edu') && 
+		(this.hostname != 'bs5.icpsr.umich.edu') && 
+		(this.hostname != 'myumi.ch') &&
+		(this.hostname != 'bit.ly') && 
+		(icon != true) &&
+		(this.classList = icon);// for twitter/facebook icons and other elements where we need to suppress the arrow
+	}).after(' <i class="fas fa-external-link-alt"></i>');
+	$('a[href^="mailto:"]').after(' <i class="far fa-envelope"></i>');
+	
+	
+	$("a").each(function(){
+		var link = this.href;
+		var file_extension= link.substr( (link.lastIndexOf('.') +1) );
+		var fileExtensionsList = ["pdf","xls","xlsx","doc","docx"];
+		if(fileExtensionsList.indexOf(file_extension) > -1 && (this.className != 'noExternalIcon')){
+			this.after(" ("+file_extension+")");
+		}
+		});
+
+});
+
+// this.hostname is the hostname of the href
+// location.hostname is the hostname of the current server
+
+
+
+
+// previously this code was in current_year.js
+// returns the year (four digits)
+var year = new Date().getFullYear();
+
+$( document ).ready(function() {
+	$("span#currentYear").html(year);
+});

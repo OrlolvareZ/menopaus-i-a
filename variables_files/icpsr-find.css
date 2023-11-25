@@ -1,0 +1,1738 @@
+
+nav.navbar-default {
+	z-index: inherit;
+	background: transparent;
+	text-transform: capitalize;
+}
+
+.navbar-nav {
+	margin-top: 0;
+}
+
+body {
+	line-height: 1.5;
+    color: #101010; 
+}
+
+.home-logo {
+	position: inherit;
+}
+
+a{
+	width: fit-content;
+}
+
+.search-box {
+	display: inherit;
+}
+
+
+.navbar-brand img {
+	width: 280px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus {
+	color: #101010;
+	background: transparent;
+	}
+
+
+footer {
+	margin-top: 0;
+}
+
+
+
+#main {
+	background: #fff;
+}
+
+article a {
+	color: #3454b7;
+	text-decoration: underline;
+}
+
+article a:hover {
+	color: #3454b7;
+	text-decoration: none;
+}
+
+article a:focus {
+	color: #3454b7;
+	outline: 1px solid;
+	outline-offset: -1px;
+}
+
+article a:visited {
+	color: #52688c;
+}
+
+article a:active {
+	color: #185a0e;
+	border-bottom: 1px solid #185a0e;
+}
+
+article a.btn {
+	text-decoration: none;
+}
+
+
+
+article a.btn-primary {
+	color: #fff;
+}
+
+
+article .panel-title.facet-field-heading a {
+	border-bottom:none;
+}
+
+.btn.btn-primary.inlineSearchBTN {
+	background-image: none;
+	font-size: 1rem;
+	color: #ffffff;
+    text-shadow: none;
+    font-weight: bold;
+    padding: 9px 20px;
+    background-color: #0d3880;
+    box-shadow: rgb(13 56 128 / 35%) 8px 8px 16px;
+    letter-spacing: 1px;
+}
+
+h1 {font-size: 30px;}
+h2 {font-size: 26px;}
+h3 {font-size: 22px;}
+h4 {font-size: 18px;}
+
+label {font-weight: inherit;}
+
+form label{
+	font-weight:bold;
+} 
+
+
+#quickDownloadWrapper {
+	margin-top: 10px;
+}
+
+
+article a.btn {
+	text-decoration: none;
+	}
+	
+article.crosswalk-table {
+	padding-bottom: 20px;
+	}
+
+.fake-scroll {
+	width: auto;
+	height:auto;
+	overflow: auto;
+	position: relative;
+	}
+
+aside#facetsAside div.panel {
+	box-shadow: none;
+	border:none;
+	border-radius: 0px;
+	margin-bottom: 10px;
+	}
+
+aside#facetsAside div.panel ul li {
+	font-size: 90%;
+	}
+	
+#facets .panel{
+	max-width: 97%;
+	} 
+
+@media(max-width:1500px){
+	#facets .panel {
+		max-width:100%;
+	}
+}
+
+@media(max-width:1200px){
+	#facets .panel {
+		max-width:97%;
+	}
+}
+
+@media(max-width:992px){
+	#facets .panel {
+		max-width:100%;
+	}
+}
+
+
+h3.panel-title.facet-field-heading {
+	font-size: 14px;	
+}
+
+#facets .panel-heading {
+	padding: 10px 7px;
+}
+
+.dropdown-toggle:focus {
+	outline: -webkit-focus-ring-color auto 5px;
+	}
+
+.panel-body p strong{
+	margin: 40px 0;
+	}
+
+/* end bootstrap overrides */
+	
+.search-tips div.panel-heading p {
+	font-size: 100%;
+	}
+
+div.see-also {
+	float: right;
+	border: 1px solid black;
+	margin: 5px 5px 5px 10px;
+	padding: 0px 5px 0px 5px;
+	width: 200px;
+	}
+	
+div.see-also ul li {
+	margin: 0px;
+	padding: 0px;
+	}
+	
+div.see-also p {
+	margin-top: 0px;
+	}
+
+div#main article ol, div#main article ul {
+	margin-left: 25px;
+	padding-left: 5px;
+	}
+
+#ICPSR .icpsrErrorCat{
+	display: none;	
+}
+
+.error-cat-website{
+	display: block;
+	margin: 0 auto;
+	content: url("https://www.icpsr.umich.edu/files/ICPSR/images/web-error-cat.png");
+}
+
+
+.error-cat-studies{
+	display: block;
+	margin: 0 auto;
+	content: url("https://www.icpsr.umich.edu/files/ICPSR/images/study-error-cat.png");
+	height:198px;
+	
+}
+
+.error-cat-pubs {
+	display: block;
+	margin: 0 auto;
+	content: url("https://www.icpsr.umich.edu/files/ICPSR/images/pubs-error-cat.png");
+	height:198px;
+}
+
+.error-cat-vars {
+	display: block;
+	margin: 0 auto;
+	content: url("https://www.icpsr.umich.edu/files/ICPSR/images/vars-error-cat.png");
+}
+
+.icpsrErrorCat > .text-center.error-cat-studies-span-smaller {
+	font-size: 1em;
+	font-weight: normal;	
+}
+
+.icpsrErrorCat > .text-center,
+.error-cat-studies-span-bold {
+	text-align: center;
+	font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+/* Customization for archonnex */
+
+div#main article ul.nav-tabs {
+	margin-left: 0;
+	padding-left: 0;
+	}
+
+
+div#main article ul.dropdown-menu {
+	margin-left: 0;	
+	min-width: auto;
+	padding-left: 0;
+}
+
+#ICPSR #ownerBlurb img{
+	display: block;
+	}
+	
+#ICPSR #ownerBlurb{
+	float: initial;
+	width: auto;
+	margin: 15px 0;
+	border-radius: 0;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 0 15px 15px;
+	}
+	
+#ICPSR .col-md-10 #ownerBlurb {
+	float: right;
+	width: 250px;
+	margin: 10px;
+}
+
+
+@media (max-width: 400px){
+	#search .nav-tabs li {
+    	width: 100%;
+	}
+}
+
+#search .nav-tabs {
+	margin-top: 5px;
+	}
+
+#search .nav-tabs>li>a,
+#search .nav-tabs>li>a {
+	color: #003399 !important;
+	text-decoration:none;
+	background-color:#eee;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #ddd;
+	padding-left: 10px;
+    padding-right: 10px;
+	}
+
+#search .nav-tabs>li.active>a,
+#search .nav-tabs>li.active>a {
+	background-color:#fff;
+	background-image:none;
+	border-bottom: 1px solid transparent;
+	}	
+	
+
+#search .nav.nav-tabs {
+    background: #efefef;
+}
+
+
+#search .nav-tabs .nav-link.active, 
+#search .nav-tabs .nav-link.active:hover, 
+#search .nav-tabs .nav-link.active:focus, 
+#search .nav-tabs .nav-link:hover,
+#search .nav-tabs .nav-link:focus {
+    border: 1px solid transparent;
+    border-bottom: 3px solid #003399;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+#search .nav-tabs>li>a, 
+#search .nav-tabs>li>a {
+	border: 1px solid transparent;
+}
+
+
+#summaryTab h2 button.accordion-button {
+	font-size: 1.4rem;
+}
+
+
+
+/*  for both members join page and email lists page*/
+.checkStatusDiv {
+	border: 1px solid #ddd;
+	border-radius: .48571429rem;
+	padding: 20px;
+	background: #003C83;
+	}
+
+.memberStatusP {
+	color: #fff;
+	}
+
+div#main h2.alreadyAMember{
+	color: #fff; 
+	margin-top: 0;
+	}
+
+#main a.external.btn-success.memberStatusBtn {
+	background-image: none;
+	background-color: #DDE3EC;
+	border: 1px solid #ddd;
+	text-decoration: none;
+	color: #101010;
+	text-shadow:  none;
+}
+
+#main a.external.btn-success.memberStatusBtn:hover,
+#main a.external.btn-success.memberStatusBtn:active,
+#main a.external.btn-success.memberStatusBtn:focus {
+	background-image: none;
+	background-color: #101010;
+	border: 1px solid #ddd;
+	text-decoration: none;
+	color:  #DDE3EC;
+	transition: .500s ease-in-out;
+	text-shadow:  none;
+}
+
+.tagList:not(:last-child):after {
+	content: ', ';
+}
+ 
+ /****************************** BIBLIO redesign 2020  ***************************/
+
+
+#biblio-home-top {
+	background: linear-gradient(0deg, rgba(0,59,131,1) 0%, rgba(207,217,228,1) 52%, rgba(255,255,255,0.036852240896358524) 78%); 
+	height: 280px;
+	margin: 0 auto;
+	}
+
+
+#biblio-home-logo {
+	display: block;
+	margin: 0 auto;
+	margin-top: 90px;
+	max-width: 500px;
+	width: 100%;;
+	align-self: center;
+	} 
+
+
+.discoverDataSubtitle{
+	font-size: 1.5em;
+	margin-top: 45px;
+	text-align: center;
+}
+
+#biblio-big-search {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.red,
+.required {
+	color: #c7254e;
+}
+
+#biblio-big-search input.form-control {
+	border: 5px solid #101010;
+    font-size: 22px;
+    height: auto;
+    padding: 8px;
+    padding-right: 55px;
+    border-radius: .4em;
+    background-color: #FEFEFA;
+}
+
+#biblio-big-search .fa-search.fa-5x {
+	font-size: 2em;
+	color: #101010;
+}
+
+#biblio-big-search .input-group-btn {
+    right: 0px;
+    top: 2px;
+    position: absolute;
+    z-index: 100;
+}
+
+#biblio-big-search .input-group {
+    width: 100%;
+}
+
+#biblio-big-search .btn-primary {
+    color: #020f76;
+    background: none;
+    border: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#biblio-big-search .search-box,
+#small-search .search-box {
+	color: #004e58;
+	border-radius: 0;
+}
+ 
+ 
+ .bib-row {
+	background: #FEFEFA;
+    background-image: url(https://www.icpsr.umich.edu/files/ICPSR/biblio/biblio-bg-6-381.png);
+   	height: 480px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:45px;
+	}
+
+
+.bib-wrap {
+	color: #FEFEFA;
+	font-size: 22px;
+	height: 100px;
+	background-color: #101010;
+	padding: 10px;
+	margin-top: 10px;
+	}
+
+
+.bib-wrap i {
+	float: left;
+    margin: 5px;
+    height: 64px;
+	}
+
+
+ 
+ div#mainContent.container-fluid{
+ 	padding-right: 0; 
+ 	padding-left:0;
+ 	}
+ 
+ 
+ .card-small-biblio {
+    font-size: 1.4em;
+    overflow: hidden;
+    padding: 0 15px;
+    border: 1px solid #eee;
+    border-radius: .28571429em;
+    margin-top: 15px;
+    min-height: 120px;
+    background-color:#101010;
+    color: #efefef;
+    display: flex;
+   	align-items: center;
+  	justify-content: center;
+}
+
+
+a .card-small-biblio:hover,
+a:focus > .card-small-biblio,
+a > .card-small-biblio:active {
+	color: #0f0f0f;
+	background-color: #efefef;
+	transition: .5s ease-in-out;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	text-decoration: none;
+}
+
+a:hover .card-small-biblio,
+a:focus .card-small-biblio {
+	text-decoration: none;
+}
+
+.card-block-biblio {
+	padding: 0; 
+	}
+	
+.card-biblio a{
+	text-decoration: none;
+}
+
+.card-title-small-biblio {
+	text-align: center;   
+	} 
+	
+ 	
+.biblio a.secondaryBtn {    
+	min-width: 100px;
+    background-image: none;
+    background-color: #FEFEFA;
+    border: 1px solid #101010;
+    color: #101010;
+	text-shadow: none;
+	width:100%;
+	max-width: 30%;
+	}
+	
+.biblio a.secondaryBtn:hover,
+.biblio a.secondaryBtn:active,
+.biblio a.secondaryBtn:focus {
+	background: #101010; 
+	border: 1px solid #101010; 
+	font-weight: bold; color: #FEFEFA; 
+	transition: .7s ease-in;
+	}
+	
+
+.biblioCommentLabel {
+	display: block;
+}
+
+.btn.btn-primary.submitCitation {
+	margin-top: 25px;
+}
+
+.well.biblioWell { 
+	background-image:  none; 
+	background-color:  rgba(0, 60, 128, .2); 
+	border:  1px solid #333;
+	}
+	
+	
+
+.biblio-top-bar {
+	background: rgb(253,206,81);
+	background: linear-gradient(90deg, rgba(253,206,81,1) 0%, rgba(253,206,81,1) 30%, rgb(251 198 155) 50%, rgba(253,232,227,1) 100%);
+	height: 40px;
+}
+
+.biblio-bottom-bar {
+	background: rgb(253,206,81);
+	background: linear-gradient(265deg, rgba(253,206,81,1) 0%, rgba(253,206,81,1) 30%, rgb(251 198 155) 50%, rgba(253,232,227,1) 100%);
+	height: 40px;
+	}
+
+.researcher_ResourcesIMG {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+	
+.facet_select {
+	margin-right: 5px;
+}	
+	
+.facet-count:before {
+	content: "(";
+}
+
+.facet-count:after {
+	content: ")";
+}
+	
+.facet-values li {
+	margin: 4px 0;
+}
+	
+.facet-values span {
+	display:inline-block;
+}
+
+
+.covidFAQ {
+	padding: 15px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+div#main article ol ol, 
+div#main article ol ul, 
+div#main article ul ol, 
+div#main article ul ul {
+	margin-left: 40px;
+	padding-left: 5px;
+	}
+
+article #accordion .panel-title.helpPanel-Title a{
+	text-decoration: none;
+	}	
+	
+article #accordion .panel-title.helpPanel-Title a:hover,
+article #accordion .panel-title.helpPanel-Title a:focus{
+	text-decoration: underline;
+	}
+	
+.panel-group > .helpPanel-Default{
+	border-radius: 0;
+	}
+
+.helpPanel-Default >.helpPanel-Heading{
+	background-image:none;
+	background-color: #efefef;
+	}
+
+#accordion .glyphicon {
+	margin-right: 10px;
+	}
+
+a.closeBTN{
+	color: #000;
+	text-decoration: none;
+	}
+	
+a.closeBTN:hover{
+	text-decoration:none;
+	}
+	
+#footnote {
+	border-top: 1px solid #072a4a;
+	font-size: 10px;
+	}
+
+img.flavorImage {
+	float: right;
+	border: 1px solid black;
+	margin: 0px 0px 10px 10px;
+	}
+	
+img.researchPaperImage {
+	float: right;
+	margin: 0px 0px 10px 10px;
+	}
+
+.prizeWinnerColumn {
+	background-color: #efefef;
+	}
+
+
+h2.form-row {
+	border-bottom: 1px solid rgba(224, 222, 208, .8);
+	margin-bottom: 10px; 
+	padding-bottom: 10px;
+	margin-top: 45px;
+}
+
+
+#research_paper_page .noExternal {background-image: none;}
+
+.grayBackground {background-color: #8080803b;}
+
+
+#research_paper_page .submitFormBtn {
+	margin: 33px auto;
+}
+
+.center {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+#research_paper_page .submitFormBtn {
+	background-image: none;
+    background-color: #552A5D;
+    text-shadow: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight:  bold;
+    transition: all .5s ease-in;
+}
+
+#research_paper_page .submitFormBtn:hover {
+    color: #552A5D;
+    padding: 15px 30px;
+    background-color: #fff;
+}
+
+.paperName{
+
+	font-size: 1.3em;
+	text-align:center;
+	padding-top: 15px;
+}
+.paperName .undergrad,
+.paperName .masterPaper {
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+div#floatingNavigation {
+	width: 175px;
+	}
+
+.asideNavigation{
+	margin-top: 65px;
+	padding-left: 0;
+	font-size: .9em;
+	}
+
+.gotoBiblioBtn {
+	    background-image: none;
+    background-color: #552a5f;
+    border: 1px solid #552a5f;
+    font-size: 1.1em;
+    transition: all .7s ease-in;
+    text-align: left;
+}
+
+
+.gotoBiblioBtn:hover {
+	background-color: #ecf0f1;
+	border: 1px solid #552a5f;
+	color: #552a5f;
+	
+}
+
+
+#topLevelSearchForm .input-sm.form-control.ui-autocomplete-input{
+	height: 47px;
+}
+
+
+ .borderBox{
+ 	border: 2px solid #ddd;
+ 	min-height: 400px;
+ 	max-height: 400px;
+ 	overflow: auto;
+ 	margin: 0 0px 15px;
+} 
+ 
+.borderBox p{
+ 	padding: 5px;
+ } 
+ 
+.borderBox > ol > li,
+.borderBox > ul > li {
+	line-height: 1.5;
+}
+
+.no-gutter {
+	margin-bottom: 30px;
+}
+
+
+.findAnalyzeIcon{
+	padding: 5px;
+}
+
+.statsStudies,
+.statsVariables,
+.statsPublications {
+	font-size: 1.2rem;
+}
+
+.statsStudies a{
+	color: #428137;
+}
+
+.statsVariables a{
+	color: #275CCD;
+}
+
+.statsPublications a{
+	color: #B434AA;
+}
+
+
+/* quick download button */
+
+#quickDownloadWrapper .btn-primary {
+    background-image: linear-gradient(to bottom,#733880 0,#552a5f 100%);
+ 	background-color: #552a5f;
+    } 
+    
+/* new owner blurb style */
+
+div#ownerBlurb {
+	display: block;
+	float: right;
+	width: 250px;
+	
+	}
+
+div#ownerBlurb p,
+div#ownerBlurb span {
+	padding: 0;
+	}
+
+div#ownerBlurb h2 {
+	padding: 0 15px;
+	display: block;
+	}
+	
+div#ownerBlurb img {
+	margin: 15px 0;
+	border: none;
+	}
+
+html#ICPSR div#Blurb {
+	background-color: #dccddf;
+	}
+
+/* end owner blurb */
+
+
+div#main h2.colorBG{
+	width:100%;
+	padding:5px 0;
+	color: #222;
+	border-radius: 2px;
+} 
+
+div#main h2.colorBG.sponsors{
+	background-color: #F67900;
+}
+
+div#main h2.colorBG.dataCol {
+	background-color: #C8E063;
+}
+
+div#main h2.colorBG.projects {
+	background-color: #05A14C;
+}
+
+div#main h2.colorBG.researchers {
+	background-color: #01451D;
+	color: #f1f1f1;
+}
+
+.sdcpr {
+	font-size: 1.3rem;
+}
+
+
+/* change password form */
+
+#chng-pswd-form input[type="submit"] {
+	display: block; 
+	margin: 15px auto;
+}
+
+h2 i.fa-question-circle {font-size: 14px;}
+
+
+.separator{
+	border-bottom: 1px solid #ddd; 
+	 
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	}
+
+
+/************************  TOPIC CLASSIFICATION PAGE ************************/
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top: 15px;
+	min-height: 400px;
+	
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: .5em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    padding: .5em;
+    text-align: center;
+
+}
+
+.card-title-well {
+	font-size: 1em;
+    font-weight: 700;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+    word-wrap: break-word;
+}
+.btn-warning {
+	color: #000;
+	}
+
+
+/*******************end topic classification page *************/
+
+/******************* Account Information Page *****************/
+
+.indent{
+	margin-left: 20px;
+}
+
+.bottomBorder{
+	border-bottom: 1px solid #ddd; 
+	padding: 5px 0 5px; 
+	margin-bottom: 20px;
+	width:50%;
+	}
+	
+.font1x{
+	font-size:1.1em;
+	}
+	
+#del_account.btn.btn-warning{
+    text-shadow: none;    
+    background-image: none;
+	background-color: #a40729;
+	border: 1px solid #a40729;
+	padding: 10px 20px;
+	color: #fff;
+	margin-bottom: 10px;
+	leter-spacing: 1px;
+	box-shadow: rgb(164 7 41 / 35%) 8px 8px 16px; 
+	margin-right: 10px;
+	text-transform: capitalize;
+	}
+
+#del_account.btn.btn-warning:hover,
+#del_account.btn.btn-warning:focus{
+	color: #a40729;
+	border: 1px solid #a40729;
+	background: #fff;
+	transition: .5s ease-in-out;
+	}
+	
+#del_account.btn.btn-warning:active {
+	box-shadow: none;
+	padding: 9px 19px;
+}
+
+input[name="Submit"].btn.btn-default,	
+input[name="Log In"].btn.btn-default,
+button[name="Create Account"].btn.btn-default,
+input[value="request password reset"] {
+    background-image: none;
+    text-shadow: none;
+    font-weight: bold;
+    padding: 10px 40px;
+    background-color: #0d3880;
+    box-shadow: rgb(13 56 128 / 35%) 8px 8px 16px;
+    color: #fff;
+    border: 1px solid #0d3880;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+input[value="request password reset"] {
+	margin-bottom: 30px;
+	text-transform: capitalize;
+}
+
+input[name="Submit"].btn.btn-default:hover,
+input[name="Submit"].btn.btn-default:focus,
+input[value="request password reset"]:hover,
+input[value="request password reset"]:focus,
+input[name="Log In"].btn.btn-default:hover,
+input[name="Log In"].btn.btn-default:focus,
+button[name="Create Account"].btn.btn-default:hover,
+button[name="Create Account"].btn.btn-default:focus {
+	color: #0d3880;
+	box-shadow: none;
+	border: 1px solid #0d3880;
+	transition: .5s ease-in-out;
+	background: #fff;
+}
+
+input[name="Log In"].btn.btn-default:active,
+button[name="Create Account"].btn.btn-default:active {
+	box-shadow: none;
+	padding: 9px 39px;
+}
+
+a[href="/cgi-bin/reqpw?path=ICPSR"]{
+	background-image: none;
+	background-color:#fff;
+	border-color:transparent;
+	padding: 10px 20px 10px 0;
+	color: #192a56;
+	font-weight: bold;
+	text-decoration: underline;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+a[href="/cgi-bin/reqpw?path=ICPSR"]:hover {
+	border: 1px solid #0d3880;
+	text-decoration: none;
+	transition: .5s ease-in-out;
+	padding: 10px 20px;
+}
+
+
+a[href="/cgi-bin/bob/chngpw?path=ICPSR"]{
+	color: #fff;
+	background: #52688C;
+	border: 1px solid #52688c;
+	padding: 10px 20px;
+	border-radius: 4px;
+	leter-spacing: 1px;
+	box-shadow: rgb(82 104 140 / 35%) 8px 8px 16px;
+	margin: 10px 10px 10px 0;
+	text-shadow: none;
+	
+}
+
+a[href="/cgi-bin/bob/chngpw?path=ICPSR"]:hover,
+a[href="/cgi-bin/bob/chngpw?path=ICPSR"]:focus {
+	color: #52688c;
+	background: #fff;
+	border: 1px solid #52688c;
+	transition: .5s ease-in-out;
+}
+
+a[href="/cgi-bin/bob/chngpw?path=ICPSR"]:acive {
+	box-shadow: none;
+	padding: 9px 19px;
+}
+
+
+.input-group .ssvdSearchInput {
+	height: 42px;
+}
+
+.exampleName {
+    font-size: 1.3em;
+}
+
+.personalNamesAuthTable {
+    width: 50%;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.indent > .strong {
+	margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.exampleList {
+	margin-bottom: 7px;
+}
+
+span.glyphicon.glyphicon-menu-down {
+    font-size: 0.8em;
+}
+
+.explanationDropdown {
+	background-color: #dddddd4d;
+	padding: 10px 15px;
+}
+
+.personalNamesAuthTable th {
+    background-color: #2e3131;
+    color: #ececec;
+}
+
+.doubleIndent {
+	margin-left: 40px;
+}
+
+li.break {
+	margin-bottom: 15px;
+}
+
+article a.readMoreBtn {
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+/*********************************************************** User Stories *****************************************/
+
+.indexCard {
+	background-color: #FFFFF0;
+	width: 500px;
+	height: 300px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 20px;
+	-webkit-box-shadow: 10px 10px 12px -6px rgba(204,204,204,0.27);
+	-moz-box-shadow: 10px 10px 12px -6px rgba(204,204,204,0.27);
+	box-shadow: 10px 10px 12px -6px rgba(204,204,204,0.27);
+	}
+
+.indexContent {
+	font-size: 1.4em;
+	padding: 10px 15px;
+	background: linear-gradient( to bottom, #eee, #eee 5%, #FFFFF0 5%, #FFFFF0 );
+	background-size: 100% 25px;
+    height: 240px;
+}
+.facultyContent {font-size: 1.2em;}
+
+.userStoryTitle { 
+	font-size: 2em; 
+	margin-bottom:0; 
+	font-weight: 600; 
+	margin-left: 15px; 
+	}
+	
+.facultyTitle {font-size:1.4em;}
+
+.blueLine {
+	height: 3px;
+    background-color: #74b9ff;
+    margin-top: 5px;
+	}
+
+.submitUserStoryRow {
+	border-top: 3px solid #ccc;
+	margin-top: 20px;
+	padding-top: 20px;
+	}
+	
+.biblio_user_img {
+	margin: 20px auto; 
+	border-radius: 5px;
+	}
+
+
+p.returnToPreviousPage {
+    padding: 15px 0;
+}
+
+.bibloYellowBanner li {margin-bottom: 5px;}
+
+
+
+
+.visually-hidden {
+  position: absolute;
+  left:     -10000px;
+  top:      auto;
+  width:    1px;
+  height:   1px;
+  overflow: hidden;
+}
+
+
+.findDataSearchInput {
+	height: 42px; 
+	font-size: 16px;
+	}
+
+
+/****************************  BUTTONS *********************/
+
+/* primary buttons  */
+.btn.btn-primary {
+	background: #0d3880;
+	border: 1px solid #0d3880;
+	color: #ffffff;
+	font-size: 1em;
+	text-align: center;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	box-shadow: rgb(13 56 128 / 35%) 8px 8px 16px;
+}
+
+#restrictedDataModal .btn.btn-primary:hover,
+#restrictedDataModal .btn.btn-primary:focus,
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+	color: #0d3880;
+	box-shadow: none;
+	border: 1px solid #0d3880;
+	transition: .5s ease-in-out;
+	background: #fff;
+}
+
+
+#restrictedDataModal .btn.btn-primary:active, 
+.btn.btn-primary:active {
+	box-shadow: none;
+	padding: 9px 19px;
+	background: #0d3880;
+	color: #fff;
+}
+
+#workspace .btn.btn-primary {
+    padding: 6px 12px;
+    letter-spacing: 0;
+    font-size: 14px;
+}
+
+#workspace .btn.btn-primary.btn-sm {
+	font-size:12px;
+	}
+
+#mainContent #workspace a.btn.btn-primary:hover {
+    border-bottom: 1px solid #0d3880;
+}
+
+/* secondary buttons  */
+
+.btn.btn-default.btn-secondary{
+	color: #fff;
+	background: #52688C;
+	border: 1px solid #52688c;
+	padding: 10px 20px;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	box-shadow: rgb(82 104 140 / 35%) 8px 8px 16px;
+	margin: 10px 10px 10px 0;
+	text-shadow: none;
+	
+}
+
+
+.btn.btn-default.btn-secondary:hover,
+.btn.btn-default.btn-secondary:focus {
+	color: #52688c;
+	background: #fff;
+	border: 1px solid #52688c;
+	transition: .5s ease-in-out;
+}
+
+.btn.btn-default.btn-secondary:acive {
+	box-shadow: none;
+	padding: 9px 19px;
+}
+
+#restrictedDataModal .btn.btn-default,	
+.btn.btn-tertiary {
+	background-image: none;
+	background-color: #fff;
+	border-color: transparent;
+	padding: 10px 20px;
+	box-shadow: none;
+	text-shadow: none;
+	color: #192a56;
+	font-weight: bold; 
+	text-decoration: underline;
+	}
+
+
+	#restrictedDataModal .btn.btn-default:hover,
+#restrictedDataModal .btn.btn-default:focus, 
+.btn.btn-tertiary:hover,
+.btn.btn-tertiary:focus  {
+	border: 1px solid #192a56; 
+	color: #333; 
+	background:#fff;
+	text-decoration: none;
+	transition: .5s ease-in-out;
+	}
+
+
+#restrictedDataModal .btn.btn-default:active, 
+.btn.btn-tertiary:active {
+	border:none;
+	text-decoration:underline;
+}
+	
+
+
+.startDepositBtn {
+	margin: 20px 0;
+}
+
+.btn.btn-primary.membershipBTN,
+#exploreMembershipMapBTN{
+	padding: 18px 63px;
+	margin: 20px 0;
+	font-size: 1.5em;
+	display: inline-block;
+	background: #0d3880;
+}
+
+#exploreMembershipMapBTN:hover,
+#exploreMembershipMapBTN:focus {
+    background: #fff;
+}
+
+.btn-primary.requestWebinarBTN {
+	padding: 18px 50px;
+	}
+
+
+
+
+/************** updated footer ****************/
+/* these can be removed when the login page is updated to bs5   as of June 14, 2023 the login page still has bs3 in it */
+
+
+footer .d-flex {
+    display: flex!important;
+}
+
+footer .flex-column {
+    flex-direction: column!important;
+}
+
+footer .py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+
+footer .pb-2 {
+    padding-bottom: 0.5rem!important;
+}
+
+footer .ps-3 {
+    padding-left: 1rem!important;
+}
+
+footer .btn-outline-primary {
+    color: #020ba9;
+    background-color: #fff;
+    border-color: #020ba9;
+}
+ 
+footer .btn-outline-primary:hover { 
+    color: #020ba9;
+    background-color: #c7c9ec;
+    border-color: #020ba9;
+}
+
+footer img.svgICPSRMlogo {
+    width: 20rem;
+}
+
+@media (min-width: 768px){
+footer .align-items-md-center {
+    align-items: center!important;
+}
+footer .justify-content-md-between {
+    justify-content: space-between!important;
+}
+footer .flex-md-row {
+    flex-direction: row!important;
+}
+
+footer .py-md-0 {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+}
+
+@media (min-width: 576px){
+footer .justify-content-sm-center {
+    justify-content: center!important;
+}
+
+footer .pe-sm-3 {
+    padding-right: 1rem!important;
+}
+
+}
+
+
+
+/*****************************************************************************  MEDIA QUERIES  ****************************************************************/
+
+
+@media(min-width:1210px){
+	
+	.twentyImg {
+	    margin: 99px auto;
+	} 
+	div#main .row.twentyAnniversaryWrapper {
+		margin: 0 auto;
+		max-width:100%;
+	
+	}
+	
+}
+
+
+
+
+
+
+
+
+@media(min-width:1500px){
+	div#main .row.biblioSearchRow {
+		max-width: 100%;
+	}
+	
+	.twentyImg {
+	    margin: 50px auto;
+	  
+	}
+	
+	.bib-row {
+		background: #FEFEFA;
+	    background-image: url(https://www.icpsr.umich.edu/files/ICPSR/biblio/biblio-bg-6-wide.png);
+	    min-width: 100%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 700px;
+		margin-top: 10px;
+	}
+}
+
+
+
+
+
+@media(max-width:1250px){
+	.twentyGradientBG {
+	    height: 450px;
+	}
+	
+	.twentyImg {
+	    margin: 140px auto;
+	  
+	}
+	
+}
+
+@media(max-width:1200px){
+	.biblio .fas.fa-users, 
+	.biblio .fas.fa-quote-left,
+	.biblio .fas.fa-plus, 
+	.biblio .fas.fa-info {
+		font-size: 2.5em;	
+	}
+	.bib-wrap {
+		font-size: 19px;
+	}
+}
+
+
+
+
+
+
+@media(max-width:1024px){
+	.twentyImg {
+	    margin: 100px auto;
+	}
+
+	.indexCard {
+		width:450px
+	}
+}
+
+
+
+
+
+
+@media(max-width:992px){
+	
+	.asideNavigation{
+		margin-top: 20px;
+	}
+	
+	div#main article ol.breadcrumb {
+		margin-left: initial;
+		
+	}
+	
+	#biblio-home-top {
+		height: 380px;
+	}
+	
+	.card-small-biblio {
+		font-size: 1.4em;
+	}
+	
+	.bib-row {
+		height: 438px;	
+	}
+	
+	.bib-wrap {
+	font-size: 17px;
+	height: 71px;
+	padding:8px 2px;
+	}
+	
+}
+
+@media(max-width:768px){
+	#research_paper_page .btn-primary,
+	#research_paper_page .btn-default {
+		margin: 25px auto;
+		display: block;
+	}
+	
+	
+	.borderBox{
+ 		min-height: 360px;
+ 		max-height: 360px;
+	} 
+	header {
+		padding-bottom: 0;
+	}
+	
+	.error-cat-vars {
+		width: 95%
+	}
+	
+	.personalNamesAuthTable {
+    	width: 100%;
+	}
+
+	
+	#biblio-big-search input.form-control {
+		padding-right: 62px;
+		font-size: 24px;
+	}
+	
+	#biblio-big-search .input-group-btn {
+		top: 2px;
+	}
+
+	#my-data {
+		margin-top: 0;
+		}
+	
+	h3.navbar-brand {
+	    font-size: 1.5em;
+	    margin-bottom: 0;
+	    margin-top: 0;
+	}
+	
+	.navbar-default .navbar-toggle {
+	    margin-top: 5px;
+	}
+	
+	.twentyImg {
+	    margin: 150px auto;
+	    width: 80%;
+	}
+	
+	.indexCard {
+    	width: 384px;
+    	height: 329px;
+	}
+	.userStoryTitle {
+		font-size: 1.8em;
+		}
+	.indexContent {
+		font-size: 1.4em;
+		}
+	
+	.grantWriterContent {font-size: 1.2em;} 
+	
+	.facultyContent {font-size: 1.1em;}
+
+	#workspace .btn.btn-primary {
+		margin-bottom: 15px;
+	}
+}
+
+@media(max-width:767px){
+	
+	#biblio-home-logo {
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 15px;
+	}
+	
+	.card-small-biblio {
+		min-height:100px;
+		}
+	
+
+	#biblio-big-search input.form-control {
+		padding-right: 62px;
+		font-size: 18px;
+	}
+	
+	#biblio-big-search .fa-search.fa-5x {
+    font-size: 2em;
+	}
+	
+	
+	.secondaryBtn {
+		min-width: 90px;
+    	padding: 5px 10px;	
+	}
+	
+	
+	#my-data {
+		margin-top: 0;
+		}
+	
+	h3.navbar-brand {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+	}
+	
+	.navbar-default .navbar-toggle {
+	    margin-top: 5px;
+	}
+	
+	
+	.bib-row {
+		background: #FEFEFA;
+	    background-image: url(https://www.icpsr.umich.edu/files/ICPSR/biblio/biblio-bg-6-phone.png);
+	    min-width: 100%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    height: 700px;
+		margin-top: 10px;
+	}
+	
+	.twentyImg {
+		margin: 25px auto;
+		padding-top: 15px;
+	    width: 80%;
+	}
+	
+	.twentyGradientBG {
+	    height: 625px;
+	}
+	
+	.indexCard {
+		max-width: 100%; 
+		margin: 20px auto;
+		}
+   
+   	.userStoryTitle {
+   		font-size: 1.4em;
+		}
+	
+	.indexContent {
+    	font-size: 1.3em;
+		}
+	
+	.indent {
+		margin-left: 0;
+		}
+	
+	.facultyContent {
+		font-size: 1em;
+		}
+	
+	.no-padding {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	#searchTips {
+		border: 1px solid #ddd;
+    	padding: 10px;
+	}
+	
+   .well.biblioWell {
+   		width:  100%;
+   		}
+                
+}
+
+
+
+
