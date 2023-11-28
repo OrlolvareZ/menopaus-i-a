@@ -5,3 +5,6 @@ icecream
 requests
 scrapy
 nbdev
+langchain
+langchain_experimental
+tabulate
