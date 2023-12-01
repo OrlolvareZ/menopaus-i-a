@@ -5,6 +5,8 @@ icecream
 requests
 scrapy
 nbdev
+openai
 langchain
 langchain_experimental
 tabulate
+python-dotenv
