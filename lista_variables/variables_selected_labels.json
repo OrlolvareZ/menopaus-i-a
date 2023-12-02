@@ -27,10 +27,10 @@
                 "AVCIGDA",
                 "BROKEBO",
                 "AGE",
-                "NUMHOTF",
                 "VISIT"
             ],
             "float": [
+                "NUMHOTF",
                 "E2AVE",
                 "HEIGHT",
                 "WEIGHT"
