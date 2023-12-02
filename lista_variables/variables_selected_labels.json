@@ -1,0 +1,132 @@
+{
+    "GENERAL": {
+        "1": "No",
+        "2": "Yes",
+        "-1": "N/A",
+        "-8": "Do not know",
+        "-9999": "Undefined",
+        "vars": [
+            "EXERCIS",
+            "DIETNUT",
+            "ESTRNJ2",
+            "COMBIN2",
+            "ESTROG2",
+            "ALCHL24",
+            "PRGNANT",
+            "SMOKERE",
+            "CANCERS",
+            "DIABETE",
+            "OSTEOPR",
+            "ESTROG1",
+            "ESTRNJ1"
+        ]
+    },
+    "NUMERICAL": { 
+        "vars": {
+            "int": [
+                "AVCIGDA",
+                "BROKEBO",
+                "AGE",
+                "NUMHOTF",
+                "VISIT"
+            ],
+            "float": [
+                "E2AVE",
+                "HEIGHT",
+                "WEIGHT"
+            ]
+        }
+    },
+    "MENODEP": {
+        "1": "Agree",
+        "2": "Neutral",
+        "3": "Disagree"
+    },
+    "OUTCOME": {
+        "1": "Live Birth",
+        "2": "Still Birth",
+        "3": "Miscarriage",
+        "4": "Abortion",
+        "5": "Tubal (Ectopic) Pregnancy",
+        "6": "Still Pregnant",
+        "-1": "N/A"
+    },
+    "ESTRDA2": {
+        "1": "Every Day",
+        "2": "Off and On",
+        "-1": "N/A"
+    },
+    "HOURSPA": {
+        "1": "<= 10 hours",
+        "2": "11-19 hours",
+        "3": "20-34 hours",
+        "4": "35-40 hours",
+        "5": "41-60 hours",
+        "6": ">60 hours",
+        "-9": "Missing",
+        "-1": "N/A"
+    },
+    "ESTRDA1": {
+        "1": "Every Day",
+        "2": "Off and On",
+        "-8": "Do not know",
+        "-1": "N/A"
+    },
+    "HAPPY": {
+        "1": "Rarely/None Of The Time (< 1 Day)",
+        "2": "Some/A Little Of The Time (1-2 Days)",
+        "3": "Occasionally/Moderate Amount Of The Time (3-4 Days)",
+        "4": "Most/All Of The Time (5-7 Days)"
+    },
+    "VAGINDR": {
+        "1": "Not At All",
+        "2": "1-5 Days",
+        "3": "6-8 Days",
+        "4": "9-13 Days",
+        "5": "Every Day",
+        "-7": "Refused"
+    },
+    "HOTFLAS": {
+        "1": "Not At All",
+        "2": "1-5 Days",
+        "3": "6-8 Days",
+        "4": "9-13 Days",
+        "5": "Every Day",
+        "-9": "Missing"
+    },
+    "PHYSILL": {
+        "1": "No",
+        "2": "Yes, Not At All Upsetting",
+        "3": "Yes, Somewhat Upsetting",
+        "4": "Yes, Very Upsetting",
+        "5": "Yes, Very Upsetting & Still Upsetting",
+        "-9": "Missing",
+        "-7": "Refused"
+    },
+    "TRBLSLE": {
+        "1": "No, Not In The Past 2 Weeks",
+        "2": "Yes, < Once A Week",
+        "3": "Yes, 1-2 Times/Week",
+        "4": "Yes, 3-4 Times/Week",
+        "5": "Yes, 5 or More Times/Week",
+        "-9": "Missing",
+        "-7": "Refused"
+    },
+    "STATUS": {
+        "1": "Post by BSO",
+        "2": "Natural Post",
+        "3": "Late Peri",
+        "4": "Early Peri",
+        "5": "Pre-menopausal",
+        "6": "Pregnant/breastfeeding",
+        "7": "Unknown due to HT use",
+        "8": "Unknown due to hysterectomy"
+    },
+    "RACE": {
+        "1": "Black/African American",
+        "2": "Chinese/Chinese American",
+        "3": "Japanese/Japanese American",
+        "4": "Caucasian/White Non-Hispanic",
+        "5": "Hispanic"
+    }
+}
