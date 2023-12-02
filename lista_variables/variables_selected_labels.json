@@ -4,6 +4,7 @@
         "2": "Yes",
         "-1": "N/A",
         "-8": "Do not know",
+        "-9": "Missing",
         "-9999": "Undefined",
         "vars": [
             "EXERCIS",
