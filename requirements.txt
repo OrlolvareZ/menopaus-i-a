@@ -10,3 +10,5 @@ langchain
 langchain_experimental
 tabulate
 python-dotenv
+mlflow
+scikit-learn
