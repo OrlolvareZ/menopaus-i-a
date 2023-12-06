@@ -1,0 +1,1244 @@
+/* previously in all-tenants.css */
+form .form-control {
+	color: black;
+}
+
+form#relatedPublication select#relationship {
+	display: inline;
+	width: auto !important;	
+}
+
+.btn-warning {
+	color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+	
+}
+
+.btn-warning:focus,
+.btn-warning:hover {
+    color: #000;
+    background-color: #ffca2c;
+    border-color: #ffc720;
+}
+
+/* end of code previously in all-tenants.css */
+
+
+/* random styles */
+
+/* SDAXML does not work within icpsr-web; this CSS should only work on icpsr-web sites. */
+.sdaXmlLink {
+	display: none;
+}
+
+/* WF: overriding bootstrap's default link color, which doesn't have enough contrast against light gray tabs and row bg colors */
+/* MI:  added .btn-link as part of bs5 upgrade */
+a,.btn-link {color: #3454b7;}
+
+.container a:not([href]) {
+    text-decoration: none;
+   /*  color: inherit;  commenting out color: inherit as it's currently messing with some buttons aug 8 2022*/
+}
+
+p.solrScoreLink {
+	text-align: right;
+	font-size: 80%;
+	}
+	
+p.solrScoreLink a {
+	color: #cdcdcd;
+	}
+
+div#compareButtons {
+	margin: 10px 10px;
+	padding: 0px 0px 0px 0px;
+	}
+
+#compare-body table.table-bordered {
+    table-layout: fixed;
+	}
+
+#compare-body .column a {
+	word-break: break-word;
+	}
+
+#compare-body .table ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 2px;
+    height: 10px
+	}
+
+#compare-body .table ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+	}
+	
+caption {color: black;}
+
+div.pull-quote {
+	width: 25%;
+	margin: 10px 10px 10px 10px;
+	font-size: 125%;
+	font-style: italic;
+	}
+
+span.restrictedNote {
+    background: #D80300;
+    color: white;
+    padding: 0 3px;
+	}
+	
+span.source:before { 
+	content: "\A"; /* this creates a line break before the span */
+	white-space:pre;
+	}
+
+div.pull-quote span.source {
+	clear: horizontal;
+	font-style: normal;
+	}
+	
+aside #alphaList {
+	margin-top: 20px;
+	/* position: fixed;  Commented this line out 11.2.15 for mobile responsivness*/
+	font-size: 125%;
+	width: 150px;
+	}
+	
+.hideExternalIcon i.fa-external-link-alt {
+	display: none;
+}
+
+#alphaList {
+	display: none;
+}
+#ICPSR #alphaList {
+	display: block;
+}
+
+.no-js-alert {
+	padding: 15px;
+	background: #fbe319;
+	color: #000;
+	font-size: 16px;
+	z-index: 1000000;
+	position: relative;
+}
+	
+/* fix alignment of Related Publications heading in deposit workspace 8-21-18 */	
+#workspace .panel-heading .row {
+    margin-left: 0;
+    margin-right: 0;
+}	
+
+#workspace .breadcrumb a {
+	color: #3454b7;
+	cursor: pointer;
+	border-bottom:none;
+}
+
+/* end random styles */
+
+/* skip navigation link for accessibility */
+
+#skip a, #skip a:hover, #skip a:visited, .skipNav a, .skipNav a:hover, .skipNav a:visited  { 
+	position:absolute; 
+	left:0px; 
+	top:-500px; 
+	width:1px; 
+	height:1px; 
+	overflow:hidden;
+	} 
+
+#skip a:active, #skip a:focus, .skipNav a:active, .skipNav a:focus {
+	position:static; 
+	width:auto; 
+	height:auto; 
+	}
+	
+/* end skip nav */
+
+
+.navbar-toggle:focus {
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+div#dialog-confirm {
+	display: none;
+	}
+
+aside h2 {
+	font-size: 130%;
+	}
+	
+aside h3 {
+	font-size: 110%;
+	}
+
+section a:hover,
+section a:focus {
+	text-decoration: none;
+}
+	
+/* aside ul {
+	margin-left: 0px;
+	padding-left: 5px;
+	}
+	
+aside ul li {
+	font-size: 90%;
+	}
+	
+aside ul li ul li {
+	font-size: 100%;
+	} */
+
+.share-this-page a {
+	padding: 0 4px;
+}
+
+div.searchResult {
+	padding: 10px 5px;
+	margin: 0;
+	}
+	
+div.searchResult .col-md-10 {
+	word-wrap: break-word;
+	}
+
+#columnHeadings {
+	padding: 15px;
+	}
+	
+#savedResultsHeader ul.dropdown-menu {
+	padding: 0;
+	}
+
+.panel-heading.collapse-toggle .panel-title .fa-chevron-circle-down,
+.panel-heading.collapse-toggle.collapsed .panel-title .fa-chevron-circle-up {
+	display: none;
+    }
+    
+.panel-heading.collapse-toggle.collapsed .panel-title .fa-chevron-circle-down,
+.panel-heading.collapse-toggle .panel-title .fa-chevron-circle-up {
+	display: inline-block;
+	}  
+
+#collapseTIMEPERIOD_NEW a.closeBTN,
+#collapseTIMEPERIODdate a.closeBTN {
+	margin-top: 14px;
+	display: inline-block;
+}
+
+/* bs5 close / hide button */
+a.closeBTN {
+    text-transform: none;
+    color: #000;
+    text-decoration: none !important;
+}
+
+.share-study .dropdown-menu>li>a {
+    display: inline;
+}
+
+.panel .panel-default,
+.panel-group .panel {
+	border-radius: 4px !important;
+}
+
+#facets .panel-heading.collapse-toggle .panel-title:after {
+    content: "";
+}
+
+.panel-title {
+	line-height: 18px;
+}
+
+.panel-title a {
+	text-decoration: none;
+}
+
+.panel-body a.closeBTN,
+#main .panel-body a.closeBTN {
+    color: #000;
+    text-decoration: none;
+    border: none;
+} 
+
+.panel-title > a > .fas {
+    padding-right: 4px;
+}
+
+#summaryTab #accordion {
+	padding: 5px;
+}
+
+body #main .panel-title.facet-field-heading a,
+body #main .panel-title a {
+	color: #000;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	text-decoration: none;
+	border: none;
+}
+
+
+	
+@media (max-width: 992px){
+	#savedResultsHeader {
+	width: 100%;
+    background: #3d423e;
+    padding: 10px;
+    z-index: 100000 !important;
+    top: 0 !important;
+    left: 0 !important;
+	}
+}
+
+#publicationsTypeLegend {
+	border: 1px solid #efefef;
+	padding:0 10px 10px 10px;
+	border-left: 1px solid #ddd;
+	background: #efefef;
+}
+
+#publications-display div.toolbar #publicationsTypeLegend .row {
+	background: #efefef;
+	color: #000;
+}
+
+#publications-display #publicationsTypeLegend p {
+	padding: 0;
+}
+
+#search article .nav-tabs.nav>li>a:hover {
+	text-decoration: underline;
+	}
+	
+#search article .nav-tabs.nav>li.active>a:hover {
+	text-decoration: none;
+	}
+
+
+#search .nav-tabs.nav>li.active>a, 
+#search .nav-tabs.navli.active>a:focus,
+#search .nav-tabs.nav>li.active>a:hover, 
+#search .nav-tabs.nav>li>a:hover, 
+#search .nav-tabs.nav>li>a:focus {
+	font-weight: bold;
+}
+
+/* prevent select menu from overflowing it's column */
+#search #sort-variables {
+	max-width: 100%;
+}
+
+
+#search .previous-next .btn-group.btn-group-sm a.btn {
+	padding: 6px 8px;
+	font-size: 12px;
+}
+
+
+
+/* end new bootstrap column widths */
+
+.viewMore[aria-expanded="false"]:before{
+  content:"[ View More ]";
+}
+
+.viewMore[aria-expanded="true"]:before{
+  content:"[ View Less ]";
+}
+	
+.archive-search-alert {
+	display: none;
+	}
+
+#ICPSR .archive-search-alert {
+	display: block;
+	clear: right;
+	}
+	
+	
+#variables-search-results div.row:nth-child(odd) {
+	background-color: #efefef;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+	
+	
+#variables-search-results div.row:nth-child(even) {
+	background-color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#varResults .searchResult div.col-sm-2 {
+	word-break: break-all;
+}
+
+.col-xs-12.varNameMobile {
+	padding-bottom: 10px;
+	padding-left: 0px;
+	}
+	
+.pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll;
+}
+
+div.previous-next {
+	background-color: #ffffff;
+	padding: 5px;
+	font-size: 90%;
+	vertical-align: middle;
+	border-left: 1px solid #ddd;
+	}
+	
+div.previous-next button {
+	font-weight: bold;
+	}
+	
+div.previous-next label {
+	font-weight: normal;
+	}
+
+div#compareTools  {
+	margin: 0;
+	padding: 10px 10px;
+	}
+	
+#search label[for="sort-series"],
+#search select#sort-series {
+    display: none;
+}
+
+div.subTable div.row {
+	padding-top: 10px;
+	}
+	
+div#noResultsFound {
+	padding: 20px;
+	}
+	
+/* adding styling to series and search pages for new study home pages */
+#search [title='Name'],
+#variables-display [title="Name"]{
+	word-wrap: break-word;
+	}
+
+
+#columnHeadings .dataset,
+#columnHeadings .col-md-3:last-child{
+	text-align: center;
+	}
+
+#columnHeadings .col-md-2{
+	padding:0;
+	}
+
+#columnHeadings .col-md-6{
+	padding-left: 10px
+	}
+	
+	
+#dataTab h1,
+.dataTables_length {
+	margin-left: 10px;
+	}	
+
+#studyListTable_filter {
+	margin-right: 10px;
+	}
+
+/* hide the sort by study title option in the variables tab of the study homepage */	
+#variablesTab #sort-variables option:nth-child(3) {
+	display: none;
+}
+
+
+#variablesTab .var-headers .name,
+#variablesTab .var-headers .labelQuestion,
+#variablesTab .var-headers .type,
+#variablesTab .var-headers .dataset {
+	font-weight: bold;
+}
+
+#variableSearchForm .moreOptionsButton,
+#citationSearchForm label[for="citationSearchTermBox"],
+#variableSearchForm label[for="variableSearchTermBox"] {
+	display: block;
+}
+	
+/* variable pane on ind. variable display */
+
+aside div#varpane ul li ul li {
+	margin-left: 26px;
+	list-style-type: disc;
+	}
+	
+aside div#varpane ul {
+	list-style-type: none;
+	}
+
+aside div#varpane ul li {
+	margin-left: 0px;
+    margin-bottom: 10px;
+	}	
+	
+aside div#varpane {
+	height: auto;
+	}
+
+#wrap .popover,
+#wrap2 .popover{
+    min-width:600px;
+	}
+
+.btn.popovers{
+	padding: 0;
+	}
+
+	
+aside div#varpane ul li ul li a {
+	color: #000000;
+	text-decoration: underline;
+	}
+	
+aside div#varpane ul li a,
+aside div#varpane a.varGrpLink {
+	color: #000000;
+
+	}
+
+aside .select-varname {
+	text-decoration: underline;
+	font-weight: bold;
+	color: blue;
+}	
+	
+	
+a.highlight {
+	font-weight: bold;
+	background-color: #dedede;
+	padding: 3px 5px 3px 5px;
+	}
+	
+	
+/* owner blurb style */
+
+img.ownerBlurb {
+	float: right;
+	border: none;
+	margin: 0px 0px 0px 5px;
+	}
+	
+div#ownerBlurb h2 {
+	display: none;
+	}
+/*	
+we are overriding this to show the logo on every archive site, so the default should be visible.
+div#ownerBlurb img {
+	display: none;
+	}
+*/
+	
+#ICPSR div#ownerBlurb img {
+	display: block;
+	}
+
+.col-lg-4 div#ownerBlurb {
+    border: 1px solid #ddd;
+    border-radius: 0.375rem;
+    background: #fff;
+ }
+	
+div#datasets p#more {
+	padding-bottom: 10px;
+	}	
+	
+
+.unpublished.bg-warning.warningRestrictedMsg{
+	padding: 10px;
+	}
+
+	
+/* begin quick download modifications */
+
+.quick_download_note2 {font-size: 80%;}	
+
+/* This code enables a hover menu. Need to disable this on touch-screen devices. */
+
+ul#quickDownloadWrapper li.dropdown:hover > ul.dropdown-menu {
+    display: block; 
+    }   
+    
+#quickDownloadWrapper .dropdown-menu {
+	margin: 0;
+	}
+
+ul#quickDownloadWrapper {
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	}
+	
+
+
+/* end quick download modifications */
+
+
+
+/* customizations for collapsible facets */
+	
+div#facetgroups div.panel-heading {
+	padding: 0px 0px 0px 0px;
+	}
+	
+div#facetgroups div.panel-heading h3 {
+	margin: 10px 0px 5px 0px;
+	}
+	
+div#facetgroups .panel-group .panel-heading+.panel-collapse>.panel-body {
+	border: none;
+	}
+	
+div#facetgroups .panel-body {
+	padding: 0px;
+	}
+	
+
+/* bs5 search facets accordion header styles */
+
+.accordion-button:not(.collapsed) {
+    color:#212529;
+    background-color: #fff;
+ }
+
+.accordion-button:not(.collapsed)::after {
+	background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #003399;
+    border: 1px solid transparent;
+    border-bottom: 3px solid #003399;
+    text-decoration: none !important;
+    background-color: #efefef;
+    font-weight: bold;
+ }
+
+/**************************** mydata button on login page */
+
+div.blue-pill {
+  background-color: #3260c6;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3260c6), color-stop(100%, #4a7cec));
+  background-image: -webkit-linear-gradient(top, #3260c6, #4a7cec);
+  background-image: -moz-linear-gradient(top, #3260c6, #4a7cec);
+  background-image: -ms-linear-gradient(top, #3260c6, #4a7cec);
+  background-image: -o-linear-gradient(top, #3260c6, #4a7cec);
+  background-image: linear-gradient(top, #3260c6, #4a7cec);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
+  -moz-box-shadow: inset 0 1px 0 0 #aec3e5;
+  box-shadow: inset 0 1px 0 0 #aec3e5;
+  color: #fff;
+  font: 17px "helvetica neue", helvetica, arial, sans-serif;
+  padding: 10px 0;
+  text-shadow: 0 -1px 1px #1a5ad9;
+  width: 191px; 
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#mainContent div.blue-pill a {
+	color: #fff; 
+	text-decoration: none;
+	border-bottom: none;
+	}
+  
+div.blue-pill:hover {
+    background-color: #4a7cec;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4a7cec), color-stop(100%, #5b8af3));
+    background-image: -webkit-linear-gradient(top, #4a7cec, #5b8af3);
+    background-image: -moz-linear-gradient(top, #4a7cec, #5b8af3);
+    background-image: -ms-linear-gradient(top, #4a7cec, #5b8af3);
+    background-image: -o-linear-gradient(top, #4a7cec, #5b8af3);
+    background-image: linear-gradient(top, #4a7cec, #5b8af3);
+    -webkit-box-shadow: inset 0 1px 0 0 #a5b9d9;
+    -moz-box-shadow: inset 0 1px 0 0 #a5b9d9;
+    box-shadow: inset 0 1px 0 0 #a5b9d9;
+    cursor: pointer; }
+  
+div.blue-pill:active {
+   -webkit-box-shadow: inset 0 0 8px 2px #bbcef9, 0 1px 0 0 #eeeeee;
+   -moz-box-shadow: inset 0 0 8px 2px #bbcef9, 0 1px 0 0 #eeeeee;
+   box-shadow: inset 0 0 8px 2px #bbcef9, 0 1px 0 0 #eeeeee; }
+   
+.signin-subhead {font: 18px lucida grande,Verdana,sans-serif;}   	
+
+#timePeriodFrom,
+#timePeriodTo {
+	padding: 1px;
+	font-size: 9px;
+	width: 29px;
+	display: inline;
+}
+
+#timePeriodSubmit {
+	padding: 5px 1px;
+}
+
+
+/**********************************************************
+
+MyDATA LOGIN PAGE
+
+**********************************************************/
+
+.rpxlogin-page .form-control,
+.requestPW{
+	height: 45px;
+	}
+
+/* .rpxlogin-page [name="Create Account"]{
+	background-image: none;
+	} */
+
+input [name=".submit"]{
+	padding: 10px;
+	margin: 10px 0;
+}
+
+
+/************************  myData Dashboard page  ************************/
+.myDataDashCard {
+    font-size: 1em;
+	overflow: hidden;
+	padding: 0;
+	border: none;
+	border-radius: .28571429rem;
+	box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+	min-height: 200px;
+	margin: 15px 0;
+	}
+
+#mainContent a:link.aTagCard  {
+    text-decoration: none;
+	}
+
+a.aTagCard > .myDataDashCard > .myDataDashCard-block > .myDataDashText-bold,
+a.aTagCard > .myDataDashCard > .myDataDashCard-block > .myDataDashText-bold{
+	text-decoration: none;
+	}
+
+a > .myDataDashCard {
+	color: #101010;
+	text-decoration: none;
+	}
+
+a:hover > .myDataDashCard,
+a:focus > .myDataDashCard {
+	background-color: #ddd;
+ 	-webkit-transition: background-color 1s ease-out;
+ 	-moz-transition: background-color 1s ease-out;
+  	-o-transition: background-color 1s ease-out;
+ 	transition: background-color 1s ease-out;
+	}
+
+a.aTagCard:hover,
+a.aTagCard:focus {
+	background-color: #ddd;
+	text-decoration: none;
+	text-decoration-color: #ddd;
+	}
+
+a.aTagCard:hover > .myDataDashCard > .myDataDashCard-block > .myDataDashText-bold,
+a.aTagCard:focus > .myDataDashCard > .myDataDashCard-block > .myDataDashText-bold{
+	text-decoration: underline;
+	}
+
+.myDataDashCard-block {
+    font-size: 1em;
+	position: relative;
+	margin: 0;
+	padding: 1em .5em;
+	border: none;
+	box-shadow: none;
+	}
+
+.myDataDashCard-img-top {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 15px auto;
+	text-align: center;
+	}
+
+.myDataDashCard-img-top.researchPassportImg {
+	width: 71%;
+	}
+
+.myDataDashCard-online img {
+	width: 63%;
+}
+
+.fa-5x {
+	font-size: 8em;
+	}
+
+.myDataDashText-bold {
+	font-weight: 700;
+	text-align:center;
+	}
+
+.myDataDashCard-img-top.viewHistory{
+	margin-bottom:8px;
+	color: #757575;
+	}
+
+.myDataDashCard-block.viewHistory{
+	padding-top:0;
+	}
+
+.viewHistoryStrike{
+	text-decoration: line-through;
+	font-size: .8em;
+	}
+
+.accountValid {
+	margin-top: 10px;
+	}
+
+
+
+/*******************end myData Dashboard Page *************/
+
+
+/* prevent search submit buttons from wrapping */
+.citations-search-input {
+	display: inline;
+	width: 80%;
+	}
+
+/* making result facets into tabs */
+
+div#main article #facetResultType ul {
+	margin: 0;
+	padding: 10px 0 0 0;
+	}
+
+#facetResultType ul li {
+	text-align: center;
+	}
+
+.result-type-tabs.row {
+	margin-left: -15px;
+	margin-right: -15px;
+	}
+
+.totalResultsVariables,
+.totalResultsCitations,
+.totalResultsStudies {
+	border-left: 1px solid #ddd;
+    margin: 0;
+    padding: 10px;
+	}
+	
+#facetResultType .nav>li>a,
+#facetResultType .nav>li>a {
+	text-decoration:none;
+	background-color:#eee;
+	background-image: none;	
+	}
+
+#facetResultType .nav>li.active>a,
+#facetResultType .nav>li.active>a {
+	background-color:#fff;
+	background-image:none;
+	}
+
+.answerTable td {padding: 7px;}
+
+.openicpsrlogo,
+.datalumoslogo,
+.censuslogo {
+	padding-left: 10px;
+	}
+	
+		
+.facet_select {
+	margin-right: 5px;
+	}	
+	
+.facet-values li {
+	margin: 20px 0;
+	}
+	
+
+
+.alert-danger a, 
+.alert-info a, 
+alert-success a, 
+alert-warning a {
+	text-decoration: underline;
+	}
+	
+.alert-danger a:hover, 
+.alert-info a:hover, 
+alert-success a:hover, 
+alert-warning a:hover {
+	text-decoration: none;
+	}
+
+.alert-danger-beta {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	}
+
+.book-section-icon,
+.journal-article-icon {
+    padding-right: 12px;
+	}
+
+#varpane .varGrp .panel-title {
+	word-wrap: break-word;
+    hyphens: auto;
+    font-size: 14px;
+}
+
+#varpane .varGrp .panel-heading {
+    padding: 10px 4px;
+    border: none;
+    box-shadow: none;
+}
+
+#varpane .varGrp i.glyphicon-chevron-right,
+#varpane .varGrp i.glyphicon-chevron-down {
+    margin-right: 1px;
+}
+
+#varpane .list-group {
+	border: none;
+	box-shadow: none;
+}
+
+
+
+.rtecenter {
+    text-align: center;
+}
+
+/* toggle switch styles */
+
+
+/* The switch - the box around the slider */
+.study-homepage-related-publications-toggle {
+	margin-left: 155px;
+    text-indent: -155px;
+}
+
+.new-feature-message {
+	margin-top: 15px;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 18px;
+  margin-left: 75px;
+  text-indent: -75px;
+  margin-top: 5px;
+}
+
+.series-homepage-studies-toggle {
+    margin-top: 5px;
+}
+
+/* Hide default HTML checkbox */
+.toggle-switch input,
+.related-publications-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .toggle-slider {
+  background-color: #1caa23;
+}
+
+input:focus + .toggle-slider {
+  outline: 0;
+  box-shadow: 0 0 4px 3px rgba(102,175,233,.8);
+}
+
+input:checked + .toggle-slider:before {
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.toggle-slider.toggle-round {
+  border-radius: 18px;
+}
+
+.toggle-slider.toggle-round:before {
+  border-radius: 50%;
+}
+
+.searchResult .collapse.relStudies {
+	clear: left;
+}
+
+.searchResult.row div.result-summary {
+    margin-top: 4px;
+}
+
+.archonnex-alert-message-wrapper {
+    background: #fff6ec;    
+    color: #000;
+}
+
+.archonnex-alert-message-wrapper.addABorder {
+	border: 1px solid #ff9e1b;
+}
+
+
+.archonnex-alert-message-wrapper .container {
+    padding: 15px;
+    font-size: 15px; 
+}
+
+.archonnex-alert-message-wrapper .container div {
+    display: flex; 
+}
+
+/* adding size and color to font awesome icon in warning message  */
+.archonnex-alert-message-wrapper .container div i.fas {
+    color: #ff9e1b;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+
+.archonnex-alert-message-wrapper .container div p {
+	display: inline-block;
+	padding-left: 15px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.archonnex-alert-message-wrapper a:link,
+.archonnex-alert-message-wrapper a:visited {
+	color: #000 !important;
+	text-decoration: underline !important;
+}
+
+.node--type-includes h2 .field--name-title {display: none;}
+
+/*************************************************
+
+						Media Queries
+
+*************************************************/
+
+
+@media (min-width: 992px) {
+	aside div#varpane {
+		overflow: auto;
+		height: 750px;
+	}
+
+	div.floating-nav {
+		position: fixed;
+	}
+	
+	
+}
+
+
+@media (max-width: 1200px){
+	.myDataDashCard-IDARS .myDataDashCard-block {
+		padding: 0;
+		}
+	}
+
+@media (max-width: 1023px){
+	a.btn.btn-default.sdaXmlink{
+		margin-top: 15px;
+	}
+}
+
+
+
+@media(max-width:992px){
+	#columnHeadings .col-md-10,
+	#columnHeadings .col-md-6,
+	#columnHeadings .col-md-3:last-child{
+		text-align: left;
+		padding-left: 0;
+	}
+
+
+	#columnHeadings .col-md-1{
+		padding: 0;
+	}
+	
+	#variableGroups{
+		padding-bottom: 25px;
+	}
+	
+	aside div#varpane{
+		padding-top: 10px;
+	    max-height: 150px;
+    	overflow: scroll;
+    	border: 1px solid #ddd;
+	}
+	
+	#variableGroups input[type=submit] {
+		width: 90%;
+    	margin: 11px 16px;
+	}
+	
+	.myDataDashCard-img-top.researchPassportImg {
+		width: 80%;
+	}
+	
+	.nav-tabs { 
+		display: block;
+		min-width: 100%; 
+	}
+	
+	.nav-tabs>li {
+		min-width: 100%;
+	}
+	.nav-tabs-responsive .nav-tabs li {
+		max-width: 100%;
+		min-width: 100%;
+	}
+	
+	/* making the tabs on study home pages go full width on mobile like search results pages */
+	small.hidden-sm.hidden-md.hidden-lg.hidden-xl {
+		display: none;
+	}
+	
+	#mainContent .nav-tabs-responsive .nav-tabs { 
+		display: block;
+		min-width: 100%; 
+	}
+	
+}
+
+@media (max-width: 768px) {
+	#facetResultType ul li {
+	    word-spacing: normal;
+	    max-width: none;
+	}
+
+
+	h3.variableNameSmallScreen{
+		text-align: center;
+	}
+
+	#wrap .popover,
+	#wrap2 .popover{
+	    min-width:80%;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.myDataDashCard-img-top.researchPassportImg {
+		width: 59%;
+	}
+		
+	#variables-display [title="type"] {
+		text-align: left;
+	}
+	#mainContent #variables-display [title="Dataset"] {
+		padding-left: 15px;
+	}
+	
+}
+
+@media(max-width: 600px){
+	#search .nav-tabs>li {
+		width: 100%;
+	}
+
+	#NACDA #search .nav-tabs>li {
+		margin-top: 0 !important;
+	}
+
+	#data-doc .dropdown-menu {
+		right: 0;
+		left: auto;
+	}
+	
+	@media (max-width: 1200px){
+	.myDataDashCard-IDARS .myDataDashCard-block {
+		padding: 1em .5em;
+		}
+	}
+}
+
+
+@media (max-width: 400px){
+	#facetResultType ul li {
+	    width: 100%;
+	}
+
+	table#data-doc {
+    	font-size: 12px;
+	}
+
+	div#mainContent {
+    	padding: 2px;
+	}
+
+
+	table#data-doc thead>tr>th,
+	table#data-doc tbody>tr>th,
+	table#data-doc tfoot>tr>th,
+	table#data-doc thead>tr>td,
+	table#data-doc tbody>tr>td, 
+	table#data-doc tfoot>tr>td {
+		padding: 2px;
+	}
+}
+

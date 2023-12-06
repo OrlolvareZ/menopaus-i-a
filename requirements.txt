@@ -5,3 +5,10 @@ icecream
 requests
 scrapy
 nbdev
+openai
+langchain
+langchain_experimental
+tabulate
+python-dotenv
+mlflow
+scikit-learn==1.2.2

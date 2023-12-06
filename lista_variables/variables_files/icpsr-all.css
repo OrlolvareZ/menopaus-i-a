@@ -1,0 +1,1805 @@
+
+/* 
+
+this is the stylesheet where you put stuff that is shared by all 6 icpsr sites + "about"
+
+*/
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+:root {
+	font-size: 16px;
+}
+
+
+body {
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+article a {
+    text-decoration: underline;
+
+} 
+
+#workspace {
+	margin-top: 20px;
+}
+
+
+img,
+.drupal-photo-wrap {
+	max-width: 100%;
+	}
+
+
+div#main .row,
+header .row {
+	max-width: 1500px;
+	}	
+
+#main.inner_wrapper.content{
+/* adding padding to bottom of page because the social media icons have moved causing the page to have no margin between the footer and other parts */
+	padding-bottom: 50px;
+}
+
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+	}
+
+
+nav.navbar-default {
+    border-radius: 0px;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+	min-height: 40px;    
+}
+
+.navbar-default .navbar-nav.homePageNavBar>li {
+    padding: 3px 10px;
+} 
+
+.navbar-default .navbar-nav.homePageNavBar>li>a {
+    color: #000;
+	}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a {
+	background-color: transparent;
+	background-image: none;
+	box-shadow: none;
+	}
+	
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+	background-image: none;
+	box-shadow: none;
+	color: #000;
+	
+}
+ 
+.navbar-default .navbar-nav.homePageNavBar>li:hover,
+.navbar-default .navbar-nav.homePageNavBar>li:active,
+.navbar-default .navbar-nav.homePageNavBar>li:focus {
+	background: #e7e7e7;
+	color: #101010;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #000;
+	}
+		
+li#homeNav.active,
+li#findNav.active,
+li#shareDataNav.active,
+li#membershipNav.active,
+li#sumProgNav.active,
+li#instructorsNav.active,
+li#dataManagementNav.active,
+li#aboutNav.active {
+	background-color: #020BA9;
+	color: #fff;
+}
+
+
+li#homeNav.active a,
+li#findNav.active a,
+li#shareDataNav.active a,
+li#membershipNav.active a,
+li#sumProgNav.active a,
+li#instructorsNav.active a,
+li#dataManagementNav.active a,
+li#aboutNav.active a {
+    color: #fff;
+} 
+
+li#homeNav.active li>a,
+li#findNav.active li>a,
+li#shareDataNav.active li>a,
+li#membershipNav.active li>a,
+li#sumProgNav.active li>a,
+li#instructorsNav.active li>a,
+li#dataManagementNav.active li>a,
+li#aboutNav.active li>a {
+	color: #333;
+}
+ 
+#my-data.navbar-nav.navbar-right {
+    /* margin: 0; */
+    margin-top: 24px;
+}
+
+.btn-default {
+	background-image: none;
+}
+ 
+ 	
+/* updated button colors  */
+.btn-secondary.logInBTNNav,
+.btn-default.logInBTNNav,
+.btn-default.myDataDashboardBTN {
+ 	background-image: none;
+ 	background-color: #115BFB;
+ 	border: 1px solid #115BFB;
+ 	color: #ffffff;
+ 	padding: 5px 30px !important;
+ 	text-shadow: none; 
+ 	margin-right: 15px;
+ 	}
+
+
+
+/* updated button colors  */
+.btn-accent.givingBTNNav,
+.btn-default.givingBTNNav {
+	background-color: #c7df63;
+	border: 1px solid #c7df63;
+	padding: 5px 30px;
+ 	text-shadow: none;
+ 	color: #222;
+}
+
+.btn-default.logInBTNNav:hover,
+.btn-default.logInBTNNav:focus,
+.btn-secondary.myDataDashboardBTN:hover,
+.btn-secondary.myDataDashboardBTN:focus {
+	color: #0c40b0;
+	background-color: #cbdefe;
+	border: 1px solid transparent;
+	transition: .5s ease-in-out;
+}
+
+.btn-secondary.logInBTNNav:active,
+.btn-secondary.myDataDashboardBTN:active{
+	box-shadow: none;
+	padding: 4px 29px;
+}
+
+.btn-accent.givingBTNNav:hover,
+.btn-default.givingBTNNav:hover,
+.btn-accent.givingBTNNav:active,
+.btn-default.givingBTNNav:active,
+.btn-accent.givingBTNNav:focus,
+.btn-default.givingBTNNav:focus {
+	color: #222;
+	background-color: #c7df637d;
+	transition: .5s ease-in-out;
+	border: 1px solid transparent;
+}
+
+.btn-accent.givingBTNNav:focus,
+.btn-defaultgivingBTNNav:focus {
+	outline: -webkit-focus-ring-color auto 5px;
+	outline-offset: -1px
+}
+
+#search-data-input.navbar-form {
+	padding-left: 0;
+	box-shadow: none;
+	}
+	
+	
+/* setting the width to full */
+#search-data-input .input-group {
+    width: 100%;
+}
+
+/* adding a border, fontsize and height to search bar*/
+#search-data-input input.form-control {
+	border: 2px solid #115BFB;
+    height: 39px;
+    padding: 8px;
+    padding-right: 55px;
+    border-radius: 20px;
+    padding-left: 15px;
+	}
+
+/*sizing and coloring the magnifying glass icon*/
+#search-data-input .fa-search {
+	font-size: 2.2em;
+	color: #101010;
+	padding: 5px 8px 4px;
+}
+
+
+/* removing the initial state of the primary button*/
+#search-data-input .btn.btn-primary {
+	position: absolute;
+    color: #020f76;
+	right: 13px;
+    top: 2px;
+    background: none;
+    border: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 1px 0 0 10px;
+    transition: .700s ease-in-out;
+    font-size: 1.5em;
+	z-index: 20;
+	    border-left: 1px solid #115BFB;
+}
+
+/* adding a hover and focus state */
+#search-data-input .btn-primary:hover .fa-search,
+#search-data-input .btn-primary:focus .fa-search {
+    background-color: #101010;
+    color: #fff;
+	transition: .700s ease-in-out;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#login-home {
+    max-width: none;
+    text-align: right;
+    color: #fff;
+    padding-top: 25px;
+    padding-right:0;
+  
+}
+
+#login-home a {
+	color: #fff;
+	padding-right: 20px;
+}
+
+#login-home a,
+#login-home .nav>li>a:focus, 
+#login-home .nav>li>a:hover {
+	background: none;
+}
+
+#login-home #sitesList .dropdown-menu>li>a {
+	color: #000;
+}
+
+@media (max-width: 992px){
+	.active .dropdown-menu {
+		background-color: #020BA9;
+	}
+}
+
+.dropdown-menu a:focus{
+	outline: 2px solid white;
+}
+
+.topRowWhiteBackgroudNav,
+.thirdRowWhiteBackgroudNav {
+	background-color: #fff;
+}
+
+.secondRowBlueBackgroudNav {
+	background: #020BA9;
+	min-height: 10px;
+}
+
+.thirdRowWhiteBackgroudNav {
+	border-bottom: 1px solid #020BA9;
+	margin-bottom: 10px;
+}
+
+
+#home .thirdRowWhiteBackgroudNav {
+	margin-bottom: 0;
+}
+
+
+#skip a:link,
+#skip a:visited{
+	color: #101010;
+	}
+
+
+header {
+	position: relative;
+	width: 100%;
+	}
+
+header,
+footer {
+	background: transparent;
+	}
+
+#mc_embed_signup .button {
+	background-color: #4b4f4c !important;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	background-image: none;
+}
+
+#search-data-input .showSearch {
+	display: none;
+}
+
+form.navbar-form,
+.navbar-form .form-control {
+	width: 100%;
+}
+
+nav i {
+    color: #fff;
+    margin-top: -5px;
+}
+
+.pagination i {
+	color: var(--bs-pagination-color);
+}
+
+.home-logo {
+    padding: 20px 0;
+    margin-left: 0;
+}
+
+.dropdown-menu {
+	min-width: 100%;
+}
+
+
+header .dropdown-menu>li>a:hover, 
+header .dropdown-menu>li>a:focus {
+	background: transparent;
+	text-decoration: underline;
+}
+
+
+header .search-box .form-group {
+	min-width: 80%;
+}
+
+
+#search-data-input .form-group{
+	min-width: 80%;
+}
+
+
+.nav>li>a.showSearch {
+	padding: 12px 20px;
+}
+
+.showSearch .fa-times {
+	color: #fff;
+    margin-left: 10px;
+}
+
+.panel-group {
+	margin-bottom: 0;
+	}
+
+
+.search-box input[type=radio] {
+	margin: 0;
+	vertical-align: middle;
+}
+
+#search-web-input {
+	display: none;
+}
+
+#search-toggle {
+	font-size: 90%;
+    line-height: 1;
+    padding-top: 10px;
+}
+.search-box label {
+	color: #fff;
+	font-weight: 300;
+	margin-left: 4px;
+}
+
+.hero-image {
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+img#mediaplayer_jwplayer_controlbar_background {
+	height: 24px !important;
+}
+
+
+.header-bg-container {
+	bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+ul.moreInformationICPSR{
+	padding-left: 15px;
+}
+
+ul.moreInformationICPSR li{
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.sideBar {
+	padding-left: 30px;
+
+}
+
+
+#view-all .row.eventsRow {
+    margin: 20px 0;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+/* removing dashed border bottom from deposit pagination  */
+#mainContent div#projectSummaryHome_home_paginate a {
+	border-bottom: none;
+}
+
+#mainContent div#projectSummaryHome_home_paginate a.paginate_button.current {
+    border-bottom: 1px solid #979797;
+}
+
+#guideMetadata .nav nav-tabs {
+	border-bottom: none;
+}
+
+#mainContent #workspace a {
+    border-bottom: none;
+}
+
+
+#guideTopButtons a.btn-sm.btn-primary {
+	background-color: #fff;
+	color: #333;
+	border: none;
+	background-image: none;
+	box-shadow: none;
+    font-size: 12px;
+}
+
+#mainContent #workspace #guideTopButtons a.btn-sm.btn-primary:hover {
+	background-color: #e6e6e6;
+	color: #333;
+	border: none;
+	background-image: none;
+	border-bottom: none;
+}
+
+.quick-search h3 {
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#about .row {
+	margin-bottom: 30px; 
+}
+
+/* Setting the background colors or the two level footer  */
+footer#links {
+	background: #115BFB; 
+	padding: 18px 0;
+	color: #fff;
+}
+
+footer#last {
+	background: #020BA9;
+	color: #fff;
+	}
+
+
+
+footer#links a:link {
+	color: #fff;
+}
+
+footer#links a:hover,
+footer#links a:visited,
+footer#links a:focus {
+	text-decoration: underline;
+	color: #fff;
+	}
+
+/* Keeping the visited a link the primary blue color so that the words continue to show up */
+footer#links #newsletter a:visited {
+	color: #020ba9;
+}
+/* removing the dashed line at the bottom of Sign up for our newsletter button in footer */
+footer#links a:link.btn {
+	border-bottom: none;
+}
+
+/* adding padding around social media font awesome icons so they are 44x44 */
+footer#links #social i {
+	padding: 6px 12px;
+}
+
+
+footer #social a:hover i {
+	border-radius: 8px;
+	color: #4B4F4C;
+    background: #fff;
+	transition: .2s ease-in-out;
+}
+
+img.svgICPSRMlogo {
+	width: 20rem;
+}
+	
+/* removing border bottom from social media in footer of icpsr decorator  */
+footer#links #social a:link {
+	border-bottom: none;
+}
+
+
+
+
+
+footer#last a:link,
+footer#last a:visited {
+	color:  #fff;
+	text-decoration: underline;
+
+}
+
+footer#last a:hover,
+footer#last a:focus {
+	color:  #fff;
+	text-decoration: none !important;
+    border-bottom: none;
+}
+
+footer#links #newsletter a:link,
+#newsletter .btn.btn-outline-primary {
+	justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    display: inline-flex;
+    color: #020ba9;
+    --bs-btn-color: #020ba9;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #020ba9;
+    --bs-btn-hover-color: #020ba9;
+    --bs-btn-hover-bg: #c7c9ec;
+    --bs-btn-hover-border-color: #020ba9;
+    --bs-btn-focus-shadow-rgb: 2,11,169;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #020ba9;
+    --bs-btn-active-border-color: #020ba9;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(34,34,34,.125);
+    --bs-btn-disabled-color: #010876;
+    --bs-btn-disabled-bg: #fff;
+    --bs-btn-disabled-border-color: #010876;
+}
+	
+footer#last a {color: white;}
+
+h1 {font-size: 30px;}
+h2 {font-size: 26px;}
+h3 {font-size: 22px;}
+h4 {font-size: 18px;}
+
+
+h1,.h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	}
+
+h4.panel-title {
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+label {font-weight: inherit;}
+
+
+
+h3.navbar-brand {
+    line-height: 1;
+    height: auto;
+}
+
+.rtecenter {
+	text-align: center;
+}
+
+.fluid-width-video-wrapper iframe,
+.fluid-width-video-wrapper object,
+.fluid-width-video-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+    
+.fluid-width-video-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    padding-top: 56.25%;
+}
+
+
+
+h3.qualitative-data {
+	margin-top: 30px;
+}
+
+
+
+
+/********************************************** SIDE NAVIGATIOn **********************************************/
+
+.asideNoPadding {
+    padding-left: 0;
+}
+
+div#main article aside ul.asideList,
+div#main article ul.asideList {
+	border-bottom: none;
+    border-top: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+aside ul.asideList li,
+ul.asideList li {
+    list-style: none;
+    padding: 10px 0 10px 5px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+}
+
+aside ul.asideList li:hover, 
+aside ul.asideList li:focus,
+ul.asideList li:hover, 
+ul.asideList li:focus {
+    background: #DEDEDE;
+    transition: .5s ease-in-out;
+}
+
+.asideList li.active {
+	/* adding border and making word bold */
+	border-left:  5px solid #003C80;
+	font-weight:  bold;
+}
+
+ul.styleguide-asideSubList  {
+	/* indenting them slightly from parent */
+     padding-left: 10px;
+}
+
+#mainContent ul.styleguide-asideSubList li,
+#main ul.styleguide-asideSubList li  {
+	/* removing the line underneath the li */
+   	border-bottom:  none;
+}
+
+
+.asideList li.active .styleguide-asideSubList li {
+	/* making non-active sublist li not bold and removing extra border */
+	border-left: none;
+	font-weight: normal;
+}
+
+
+.asideList li.active .styleguide-asideSubList li.active  {
+   	font-weight: bold;
+}
+
+
+ul.asideList li.hasSubLinks {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+
+
+
+/*************************************  Instructors CSS  *************************************/
+body.instructors-splash .navbar {
+	margin-bottom: 0;
+}
+
+div#splashFlavorImage {
+    width: 100%;
+    margin: 10px 0;
+}
+	
+/* ABOUT ME */
+
+body.instructors-splash #gradient{
+	background: #edf1fa;
+	background-image: linear-gradient(to bottom, #edf1fa 1%,#ffffff 50%,#edf1fa 100%);
+}
+
+body.instructors-splash .row{
+	margin-right: 0px;
+	}	
+	
+body.instructors-splash div#main .col-md-5 h2,
+body.instructors-splash div#main .bigfirstletter {
+	color: #005073;
+}
+
+.row.well{
+	background: #fff;
+	border: none;
+	overflow: hidden;
+}
+
+body.instructors-splash .row.well .col-md-6.ddlg-front{
+	background: #edf1fa;
+	 background: linear-gradient(to left, #edf1fa, #ffffff);
+	 padding-right: 0px;
+	 padding-bottom: 100000px;
+     margin-bottom: -100000px;
+}
+
+#main .row.well .col-md-6.ddlg-front h2{
+	background: #eb4900;
+	background: linear-gradient(#AD3212, #eb4900);
+	color: #fff;
+	padding: 11px;
+	margin: 0 0 15px;
+}
+
+#main .row.well .col-md-6.ddlg-front p{
+	padding: 0 5%;
+}
+
+#main .row .col-md-6.ddlg-front ul li{
+	margin-left: 10px;
+}
+
+.ddlg-front:first-child {
+	padding-left:0;
+	}
+	
+.instructors-splash .well {
+    padding: 19px 0;
+}
+
+#ddlg{
+	max-width: 1280px;
+}
+
+.text-align-right,
+.text-right {
+	text-align: right;
+}
+
+.text-align-left,
+.text-left {
+	text-align: left;
+}
+
+.text-align-center,
+.text-center {
+	text-align: center;
+}
+
+
+.list-group a{
+	color: #000;
+	text-decoration: none;
+}
+
+
+div.fieldName {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+	}
+
+div#facetResultType {
+	display: none;
+	}
+	
+a.printer-open,
+a.printer-friendly {
+	padding: 10px;
+	display: inline-block;
+}
+
+.panel-body.main.instructors{
+	background: #edf1fa;
+	background: linear-gradient(to left, #edf1fa, #ffffff);
+	}
+
+.panel-body.main.instructors img {
+	-webkit-box-shadow: 10px 10px 45px -8px rgba(0,0,0,0.49);
+	-moz-box-shadow: 10px 10px 45px -8px rgba(0,0,0,0.49);
+	box-shadow: 10px 10px 45px -8px rgba(0,0,0,0.49);
+}
+
+.panel-body.main.instructors ul li{
+	list-style: none;
+	line-height: 2
+	}
+
+/* used in setups2008 */
+#footnote {
+	border-top: 1px solid #072a4a;
+	font-size: 10px;
+	}
+
+/* used on instructors homepage */
+.bigfirstletter {
+	font-size: 1.5em;
+	color: #101010;
+	}
+	
+div.warningBox {
+	color: #000;
+	float: right;
+	width: 300px;
+	border: 1px solid #000;
+	margin: 10px 0px 10px 10px;
+	padding: 0px 10px 10px 10px;
+	}
+
+
+/********************   Instructors  Fellow Restricted Data Page ******************************/
+	
+.fellowHelpfulICPSRSidebar {
+	list-style-type: none;
+}
+
+.fellowHelpfulICPSRSidebar li {
+	margin-bottom: 10px;
+}
+
+.fellowSideBar {
+	background-color: #EBEBEB;
+	padding-bottom: 45px;
+}
+
+.page4Large{
+    font-size:  1.2em;
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.fellow-card-small-discover {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0 10px;
+    border: 1px solid #eee;
+    border-radius: .28571429rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 15px;
+    min-height: 190px;
+    background-color:#f4f4f4;
+   
+}
+
+.fellow-card-block-discover {
+    padding: 0; 
+    
+    }
+    
+
+.fellow-card-title-small-discover {
+    margin-top: 15px; 
+    margin-bottom: 10px;
+    }
+   
+ .fellowImages {
+ 	border: 1px solid #ddd;
+ 	margin: 10px auto 20px;
+ 	}
+    
+    
+.fellow-card-img-top-discover {
+    display: block;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+	
+.fellowBoxLinks {
+	border: 1px solid #52688c;
+	padding: 20px 10px;
+	border-radius: 4px;
+	background-color: #52688c;
+
+}
+
+.breadcrumb>.active {
+	color: #707070;
+}
+
+#main a:active {
+	color: #185a0e;
+	border-bottom: 1px solid #185a0e;
+}
+
+#main a .fellowBoxLinks  {
+	color: #fff;
+	border-bottom: none;
+} 	
+
+#main a:focus .fellowBoxLinks,
+#main a .fellowBoxLinks:hover
+ {
+	color: #52688c;
+	background-color: #fff;
+	border-bottom: 1px solid #52588c;
+}
+
+.fellowLinkRow {
+	margin-top: 40px;
+}
+
+.breadcrumb {
+	background-color: #fff;
+	box-shadow: rgb(171 183 204 / 35%) 5px 5px 10px;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+.breadcrumb>.active {
+	color: #707070;
+}
+
+#variable .breadcrumb ul.breadcrumb {
+	box-shadow: none;
+}
+
+#variable .breadcrumb ul {
+	margin-left: 0;
+	margin-bottom: 8px;
+}
+
+/*************************************  myData Dashboard page  *************************************/
+.myDataDashCard {
+    font-size: 1em;
+	overflow: hidden;
+	padding: 0;
+	border: none;
+	border-radius: .28571429rem;
+	box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+	min-height: auto;
+	margin: 15px 0 20px;
+	}
+
+.myDataDashCard-researcherPassport .myDataDashCard {
+	min-height: 185px;
+	}
+	
+	
+.myDataDashCard-img-top.researchPassportImg {
+	max-width: 75%;
+    padding: 12px 5px;
+	}
+	
+
+	
+#mainContent a:link.aTagCard  {
+    text-decoration: none;
+    background-image: none;
+	}
+		
+a.aTagCard > .myDataDashCard > .myDataDashCard-block > .myDataDashText-bold,
+a.aTagCard > .myDataDashCard > .myDataDashCard-block > .myDataDashText-bold{
+	text-decoration: none;
+	}
+	
+a > .myDataDashCard {
+	color: #000; 
+	text-decoration: none;
+	}
+
+a:hover > .myDataDashCard,
+a:focus > .myDataDashCard {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+ 	-webkit-transition: background-color 1s ease-out;
+ 	-moz-transition: background-color 1s ease-out;
+  	-o-transition: background-color 1s ease-out;
+ 	transition: background-color 1s ease-out;
+ 	-webkit-box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.48);
+	-moz-box-shadow: 10px 10px 15px -6px rgba(0,0,0,0.48);
+	ox-shadow: 10px 10px 15px -6px rgba(0,0,0,0.48);
+	}
+	
+a.aTagCard:hover,
+a.aTagCard:focus {
+	background-color: #ddd;
+	text-decoration: none;
+	text-decoration-color: #ddd;
+	}
+
+a.aTagCard:hover > .myDataDashCard > .myDataDashCard-block > .myDataDashText-bold,
+a.aTagCard:focus > .myDataDashCard > .myDataDashCard-block > .myDataDashText-bold{
+	text-decoration: underline;
+	}
+	
+.myDataDashCard-block {
+    font-size: 1em;
+	position: relative;
+	margin: 0;
+	padding: 1em .5em;
+	border: none;
+	box-shadow: none;
+	}
+	
+.myDataDashCard-img-top {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 15px auto;
+	text-align: center;
+	}
+
+.myDataDashCard > .fa-5x {
+	font-size: 7em;
+	}
+
+.myDataDashText-bold {
+	font-weight: 700;
+	text-align:center;
+	}
+
+.myDataDashCard-img-top.viewHistory{
+	margin-bottom:8px;
+	color: #757575;
+	}
+
+.myDataDashCard-block.viewHistory{
+	padding-top:0;
+	}
+	
+.viewHistoryStrike{
+	text-decoration: line-through;
+	font-size: .8em;
+	}	
+	
+.accountValid {
+	margin-top: 10px; 
+	}
+
+.weclomeLogAct{
+	padding-left: 15px;
+	}
+
+.myDataDashCard-img-top.statSnapLogo {
+    filter: grayscale(1);
+    width: 72%;
+}
+
+/*************************************  end myData Dashboard Page    *******************************/
+
+
+
+
+
+.tab-content>.tab-pane {
+    overflow: visible;
+}
+
+
+
+
+header .navbar {
+    padding: 0;
+}
+
+
+.book-section-icon,
+.journal-article-icon {
+    padding-right: 12px;
+}
+
+
+
+
+/********************    Fellow Restricted Data Page ******************************/
+	
+.fellowHelpfulICPSRSidebar {
+	list-style-type: none;
+}
+
+.fellowHelpfulICPSRSidebar li {
+	margin-bottom: 10px;
+}
+
+.fellowSideBar {
+	background-color: #EBEBEB;
+	padding-bottom: 45px;
+}
+
+.page4Large{
+    font-size:  1.2em;
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.fellow-card-small-discover {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0 10px;
+    border: 1px solid #eee;
+    border-radius: .28571429rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 15px;
+    min-height: 190px;
+    background-color:#f4f4f4;
+   
+}
+
+.fellow-card-block-discover {
+    padding: 0; 
+    
+    }
+    
+
+.fellow-card-title-small-discover {
+    margin-top: 15px; 
+    margin-bottom: 10px;
+    }
+   
+ .fellowImages {
+ 	border: 1px solid #ddd;
+ 	margin: 10px auto 20px;
+ 	}
+    
+    
+.fellow-card-img-top-discover {
+    display: block;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+	
+.fellowBoxLinks {
+	border: 1px solid #52688c;
+	padding: 20px 10px;
+	border-radius: 4px;
+	background-color: #52688c;
+
+}
+
+
+#main a:active {
+	color: #185a0e;
+	border-bottom: 1px solid #185a0e;
+}
+
+#main a .fellowBoxLinks  {
+	color: #fff;
+	border-bottom: none;
+} 	
+
+#main a:focus .fellowBoxLinks,
+#main a .fellowBoxLinks:hover
+ {
+	color: #52688c;
+	background-color: #fff;
+	border-bottom: 1px solid #52588c;
+}
+
+.fellowLinkRow {
+	margin-top: 40px;
+}
+
+
+
+#main ul.asideList li a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+aside#floatingToc {
+	padding-left:0
+}
+
+.codeSentence {
+	color: #3E757E;
+	font-style: italic;
+}
+
+.codeDarkBlue {
+	color: #06287e
+}
+
+.codeLightBlue {
+	color: #4070A0;
+}
+
+.codeGreen {
+	color: #687722;
+}
+
+.codeDarkGreen {
+	color: #307854;
+}
+
+.codeRed {
+	color: #880000
+}
+
+.imageFigureCap {
+	font-size:.9em;
+	color: #333;
+}
+
+.arFellowImg {
+	display: block;
+	margin: 20px auto;
+	width: 90%;
+	
+}
+
+.arFellowImg img {
+	border: 1px solid #ddd;
+}
+
+.arFellow h2,
+.arFellow h3 { margin-top: 45px;}
+
+
+.arFellow h2:first-child {
+	margin-top:0;
+}
+
+a.go-top, a.go-top:link, a.go-top:visited, a.go-top:hover, a.go-top:focus {
+    color: #fff;
+}
+
+ .go-top {
+    background: #000;
+    padding: 10px 5px;
+    color: #fff;
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+    text-align: center;
+    display: none;
+}
+	
+/*************************************  END Fellow Restricted Data Page *******************************/
+	
+
+	
+
+
+
+
+
+
+/*************************************  Media Queries *******************************/
+
+@media(min-width:1500px){
+	.myDataDashCard-img-top.researchPassportImg {
+		width: 65%;
+		padding: 12px 5px 0;
+		}
+	
+	.myDataDashCard-img-top.statSnapLogo {
+	    width: 55%;
+		}
+}
+	
+@media (min-width: 1499px){
+	.container {
+    	width: 1500px;
+	}
+
+	#search-toggle {
+		padding-left: 45px;
+	}
+}
+	
+	
+@media (max-width: 1499px){
+	header .nav>li>a,
+	header .navbar-default .navbar-nav>li#my-data-login-link a {
+	    padding:  20px;
+		}
+	
+	.slick-carousel .col-md-3 h3 {
+		height: 90px;
+		}
+}
+
+@media (max-width: 1299px){
+	.navbar .col-md-10 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1499px){
+	nav .col-lg-11 {
+	    width: 100%;
+	}
+	nav .col-lg-1 {
+	    width: 0;
+	}
+}
+
+
+@media (max-width: 1200px){ 
+
+	.home-logo{
+		padding-top: 10px;
+		} 
+	
+	.navbar-nav.homePageNavBar {
+		float: none;
+	}
+	
+	h1.home {
+		font-size: 20px;
+	}
+	
+	.nav li a {
+	    font-size: 15px;
+	} 
+	
+	
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.navbar-collapse.collapse {
+		padding: 0;
+	}
+	
+	.nav>li>a {
+    padding: 15px 8px;
+	}
+	.navbar-default .navbar-nav.homePageNavBar>li {
+		padding: 3px 3px;
+	}
+	
+	.nav>li>a.showSearch {
+	padding: 12px 0;
+	}
+	
+	
+}
+
+
+@media (max-width: 1023px){
+	a.btn.btn-default.sdaXmlLink{
+		margin-top: 15px;
+	}
+}
+
+@media(max-width:992px){
+	.myDataDashCard-img-top.researchPassportImg {
+		width: 91%;
+		}
+	
+	.myDataDashCard-img-top.statSnapLogo {
+		width: 90%;
+	    margin-top: 25px;
+	    margin-bottom: 29px;
+		}
+
+
+
+	li#homeNav.active a,
+	li#findNav.active a,
+	li#shareDataNav.active a,
+	li#membershipNav.active a,
+	li#sumProgNav.active a,
+	li#instructorsNav.active a,
+	li#dataManagementNav.active a,
+	li#aboutNav.active a,
+	li#homeNav.active li>a, 
+	li#findNav.active li>a, 
+	li#shareDataNav.active li>a, 
+	li#membershipNav.active li>a, 
+	li#sumProgNav.active li>a, 
+	li#instructorsNav.active li>a, 
+	li#dataManagementNav.active li>a, 
+	li#aboutNav.active li>a {
+    
+	    color: #fff;
+	} 
+	
+	li#homeNav li>a, 
+	li#findNav li>a, 
+	li#shareDataNav li>a, 
+	li#membershipNav li>a, 
+	li#sumProgNav li>a, 
+	li#instructorsNav li>a, 
+	li#dataManagementNav li>a, 
+	li#aboutNav li>a {
+	  color: #333;
+	}
+	
+	.form-group {
+	    min-width: 75%;
+	}
+	
+	
+	
+	h1.home {
+		font-size: 14px;
+		top: 50px;
+	}
+}
+	
+/* changing the break point of the toggle menu */ 
+@media (max-width: 991px) {
+	
+	.navbar-nav.homePageNavBar>li  {float: none;}
+		
+     /* .navbar-collapse.collapse {
+        display: none !important;
+    } */
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+     .navbar-header .collapsed, .navbar-toggle.homePage {
+        display:block !important;
+        border-color: #101010;
+        border-color: #fff;
+		margin-top: 12px;
+		margin-right: 10px; 
+     } 
+        
+     
+    .navbar-toggle .icon-bar{
+		background-color: #fff;
+	}
+	
+    .navbar-header {
+        float:none;
+    }
+    .navbar,
+    nav.navbar-default {
+		min-height: 0;
+	}
+	.logoMobileMenu {padding: 0;}
+	
+	.nav li a {
+   	 font-size: 16px;
+	}
+}
+
+
+@media (max-width: 768px){
+
+	h1 {font-size: 24px;}
+	h2, section#news h2 {font-size: 22px !important;}
+	h3 {font-size: 20px;}
+	h4 {font-size: 18px;}
+
+	header .dropdown-menu>li:nth-child(even) {
+    	background: none; 
+	}
+
+	
+	.search-box .navbar-form .form-group {
+		float: left;
+		margin-right: 4px;
+		min-width: 0;
+		width: 50%;
+		}
+	
+	.slick-prev {
+	    right: 50%;
+	    top: -122px;
+		}
+	
+	.slick-next {
+	    right: calc(50% - 96px);
+	    top: -122px;
+		}
+	
+	section#about h2 {
+		margin-top: 40px;
+		}
+
+	h1.home {
+		top: 24px;
+		left: 10px;
+		transform: none;
+		-webkit-transform: none; 
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+		}
+	
+	.sub-nav {
+		display: none;
+		}
+
+	h3.navbar-brand {
+		font-size: 1.5em;
+		margin-bottom: 0;
+	}
+	
+	#my-data {
+		text-align: center;
+	}
+	
+	#my-data-login-link {
+		padding-bottom: 15px;
+		}
+		
+	#facetResultType ul li {
+	    word-spacing: normal;
+	    max-width: none;
+	}
+	
+	.sideBar {
+		padding-left: 15px;
+	}
+	
+	/* moving the dropdown menu over so that it doesn't go off screen on iPad and smaller screens */
+	#data-doc .dropdown-menu {
+		right: 0;
+		left: auto;
+	}
+		
+	
+}
+
+
+@media (max-width: 767px){
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    	color: #fff;
+    	color: #101010;
+	}
+	
+
+	header .search-box .form-group,
+	#search-data-input .form-group {
+		width: 100%;
+	}
+	
+
+	.navbar-form {
+		margin: 0;
+		padding: 10px 0;
+	}
+	
+	.navbar-toggle{
+		margin-right: 0;
+		margin-top: 15px;
+	}
+	
+	
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #fff;
+		text-decoration: underline;
+	}
+
+	.navbar-nav .open .dropdown-menu{
+		/* adding box around dropdown menu on mobile */
+		border: 1px solid #ccc;
+		border-top: 1px solid transparent;
+	}
+	
+	.myDataDashCard-img-top.researchPassportImg {
+		width: 41%;
+		}
+	
+	
+	header .dropdown-menu>li:nth-child(even) {
+	/* removing light colored background on mobile  */
+    	background: transparent;
+	}
+	
+	.btn-default.logInBTNNav,
+	.btn-default.givingBTNNav {
+		font-size: 16px;
+		display: inline-block;
+		padding: 10px 30px;
+	}
+	
+	
+	.btn-default.logInBTNNav  {
+		margin-right:50px;
+		}
+	
+	.btn-default.myDataDashboardBTN{
+		font-size: 16px;
+		display: inline-block;
+		padding: 10px;
+    	margin-right: 14px;
+		}
+		
+	#my-data.nav.navbar-nav.navbar-right>li {display: inline-block;}
+		
+		
+	#search-data-input input.form-control {
+    	font-size: 16px;
+	}
+	
+	#search-data-input .input-group-btn {
+    	right: 40px;
+	}
+
+	.search-box #search-data-input .form-group	{
+		width: 100%;
+	}
+	
+	#home .search-box .navbar-form {
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	.home-logo {
+	    padding: 15px 0;
+	    display: block;
+	    margin: 0 auto; 
+	}
+	
+	.navbar-header .collapsed, .navbar-toggle.homePage {
+        display:block !important;
+        border-color: #101010;
+        border-color: #fff;
+		margin-right: -15px; 
+     }
+     
+
+	.myDataDashCard-img-top.statSnapLogo {
+	    width: 71%;
+	    margin-top: 25px;
+	    margin-bottom: 15px;
+	    }
+	
+	.ddlg-front:nth-child(2) {
+		padding-left: 0;
+	}
+	
+	.fellowSideBar {
+	margin-top: 30px;
+		padding-top: 20px;
+	}
+	
+	.fellowBoxLinks {
+		margin-top: 20px;
+	}
+	
+	.fellowBox {
+		margin-top:20px;
+		}
+}
+
+
+@media(max-width: 600px){
+	#facetResultType ul li,
+	#search .nav-tabs>li {
+		width: 100%;
+	}
+	
+
+}
+
+
+
+
+@media (max-width: 450px) {
+	.navbar-brand a img {
+		width: 200px;
+		}
+
+	h3.navbar-brand {
+		font-size: 1.5em;
+		margin-bottom: 0;
+		}
+
+
+	h1.home {
+		font-size: 11px;
+		}
+
+	header, #main, footer {
+		min-width: 300px;
+		overflow: hidden;
+		}
+}
+
+
+@media(max-width:420px){
+	.myDataDashCard-img-top.researchPassportImg {
+		width: 75%;
+		}
+	}
+	
+.line-1, .line-2, .line-3 {
+
+	cursor: pointer;
+	border-radius: 4px;
+	height: 5px;
+	width: 60px;
+	background: #000;
+	position: relative;
+	display: block;
+	content: '';
+
+}
+
+.navbar-toggle:hover span {
+	cursor: pointer;
+}
+
+
+.line-1, .line-2, .line-3 {
+	transition: all 300ms ease-in;
+}
+
+.navbar-toggle.active .line-2 {
+	background-color: transparent;
+}
+
+.navbar-toggle.active .line-1 {
+  top: 10px;
+  position: absolute;
+}
+
+.navbar-toggle.active .line-3 {
+  bottom: 14px;
+  position: absolute;	
+}
+
+.navbar-toggle.active .line-1 {
+	transform: rotate(45deg);
+ 	top: 16px;
+ 	height: 3px;
+}
+
+.navbar-toggle.active .line-3 {
+	transform: rotate(-45deg);
+	height: 3px
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: transparent;
+}
+
+.navbar-toggle.active {
+	height: 35px;
+}
+	

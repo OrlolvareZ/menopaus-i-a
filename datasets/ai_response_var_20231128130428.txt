@@ -1,0 +1,39 @@
+Here is the dictionary with the terms as keys and the variable IDs as values:
+
+```python
+{
+    'menopause': ['EXPECT9', 'MENODEP9', 'ATTRACT9', 'H_NOTIC9', 'NO_MED9', 'POSITIV9'],
+    'estradiol': ['FLGCV9', 'E2AVE9', 'FLGDIF9'],
+    'estrogen': ['COMBIN19', 'COMBTW19', 'COMBIN29', 'COMBTW29', 'ESTRDA19', 'ESTRDA29', 'ESTRNJ19', 'EINJTW19', 'ESTRNJ29', 'EINJTW29', 'ESTROG19', 'ESTRTW19', 'ESTROG29', 'ESTRTW29', 'STRTEST9', 'STPESTR9', 'OHRM_19', 'OHRM_29', 'OHRM_39', 'OHRM_49', 'SOYYSNO9', 'ESTLSTV9'],
+    'diet': [ ... ], # List is too long, not fully displayed here
+    'alcohol': ['ALCHL249', 'BATCARB9', 'BATKCAL9', 'DTTALCH9', 'BATNIAC9', 'BATPHOS9', 'BATPOTS9', 'BATPROT9', 'BATRIBO9', 'BATTFAT9', 'DRNKBEE9', 'ALCHMON9', 'ALCO24H9', 'ALCHSRV9', 'PCTALCH9', 'PHYSILL9', 'ALCHWK9'],
+    'tobacco': ['HOMEXPD9', 'HOMEXPH9', 'WRKEXPH9', 'HHMEMSM9', 'WRKEXPE9', 'WRKEXPD9', 'TOTEXPH9'],
+    'diabetes': ['DIABETE9'],
+    'bone': ['BONES19', 'BONES29', 'BONES39', 'BROKEBO9', 'OSTEIV19', 'OSTEON19', 'OSTEON29', 'OSTEOPR9', 'OSTEOPO9', 'HPBMDT9', 'SPBMDT9'],
+    'cardiovascular': [],
+    'ovulation': [],
+    'hormones': ['NOREMEB9', 'HAVEPER9', 'LIKEFEL9', 'NOLIKE9', 'DNTKNOW9', 'DONTKNO9', 'FRNADVI9', 'HCPADVI9', 'ADVISTO9', 'IMPRMEM9', 'HORMDAY9', 'OHRM_19', 'OHRM_29', 'OHRM_39', 'OHRM_49', 'PRBBLEE9', 'REDUHAR9', 'OSTEOPO9', 'REGPERI9', 'MENOSYM9', 'YOUNGLK9', 'NEWSRPT9', 'NOREASO9', 'STOPOTH9', 'HORMOTH9', 'EXPENSI9', 'CANCER9', 'SIDEEFF9'],
+    'cognition': [],
+    'age': [ ... ], # List is too long, not fully displayed here
+    'exercise': ['EXERCIS9', 'EXERGEN9', 'EXERHAR9', 'EXERMEM9', 'EXERMEN9', 'EXEROST9', 'EXEROTH9', 'EXERSPE9', 'EXERADV9', 'EXERPER9', 'EXERWGH9', 'EXERLOO9', 'EXER12H9', 'LRXKEGL9', 'OTHSPOR9', 'SPOREX19', 'SPOREX29', 'SPORTS9'],
+    'obesity': [],
+    'substances': [],
+    'genes': [],
+    'well-being': [],
+    'stress': [],
+    'race': ['EMBDDEV9', 'ESTROG19', 'ESTROG29', 'ONMEASS9', 'RACE'],
+    'libido': [],
+    'sexuality': [],
+    'cortisol': [],
+    'hot flashes': ['BOTHOTF9', 'HOTFLAS9', 'NUMHOTF9'],
+    'irregularity': [],
+    'flushing': [],
+    'skeletal': ['SKELMM9'],
+    'menarche': [],
+    'menstruation': []
+}
+```
+
+Note that some lists are too long and are not fully displayed here.
+
+# Generated with the gpt-4-1106-preview model.
